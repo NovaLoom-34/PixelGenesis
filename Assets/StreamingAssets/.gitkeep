@@ -1,0 +1,2 @@
+# This file ensures the StreamingAssets directory is tracked by Git.
+# Actual data and art mirrors are generated at runtime / build-time via PG.EditorTools.DataSync.

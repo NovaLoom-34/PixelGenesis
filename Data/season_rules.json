@@ -1,0 +1,7 @@
+{
+  "temperatureAmplitudeC": 10,
+  "spring": { "plantGrowth": 1.2, "cropGrowth": 1.15, "fertility": 1.15, "hunger": 1.0, "movement": 1.0, "spoilage": 1.0 },
+  "summer": { "plantGrowth": 1.15, "cropGrowth": 1.3, "fertility": 1.05, "hunger": 1.0, "movement": 1.0, "spoilage": 1.15 },
+  "autumn": { "plantGrowth": 0.85, "cropGrowth": 0.75, "fertility": 0.9, "hunger": 1.0, "movement": 1.0, "spoilage": 0.95 },
+  "winter": { "plantGrowth": 0.45, "cropGrowth": 0.2, "fertility": 0.7, "hunger": 1.18, "movement": 0.9, "spoilage": 0.75 }
+}

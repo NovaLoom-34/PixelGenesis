@@ -1,0 +1,187 @@
+{
+ "category": "inventions",
+ "count": 13,
+ "items": [
+  {
+   "id": "inv.wheel",
+   "name": "Tekerlek",
+   "category": "transport",
+   "cost": 100,
+   "reqs": [],
+   "effects": {
+    "pct": {
+     "speed": 10.0
+    }
+   },
+   "description": "Kara taşımacılığının temeli; yük arabalarının ve tekerlekli ulaşımın önünü açar."
+  },
+  {
+   "id": "inv.plow",
+   "name": "Demir Saban",
+   "category": "production",
+   "cost": 120,
+   "reqs": [],
+   "effects": {
+    "pct": {
+     "farmYield": 40.0
+    }
+   },
+   "description": "Tarlaların daha derin sürülmesini sağlar; çiftlik hasadı artar ve tırpan kullanımı başlar."
+  },
+  {
+   "id": "inv.irrigation",
+   "name": "Sulama Kanalları",
+   "category": "production",
+   "cost": 180,
+   "reqs": ["inv.plow"],
+   "effects": {
+    "pct": {
+     "farmYield": 15.0
+    }
+   },
+   "description": "Kanallar tarlalara su taşır; az yağışlı bölgelerde mahsuller daha düzenli büyür ve daha iyi ürün verir."
+  },
+  {
+   "id": "inv.watermill",
+   "name": "Su Değirmeni",
+   "category": "production",
+   "cost": 260,
+   "reqs": ["inv.irrigation"],
+   "effects": {
+    "pct": {
+     "farmYield": 20.0
+    }
+   },
+   "description": "Akarsu gücü tahıl öğütmeyi ve hasat sonrası işlemeyi hızlandırır; şehirlerin tarımsal üretimi artar."
+  },
+  {
+   "id": "inv.sails",
+   "name": "Yelken ve Denizcilik",
+   "category": "transport",
+   "cost": 150,
+   "reqs": [],
+   "effects": {
+    "pct": {
+     "boatSpeed": 25.0
+    }
+   },
+   "description": "Rüzgâr gücüyle deniz aşırı seyir; balıkçı ve ticaret filoları denizlere açılır."
+  },
+  {
+   "id": "inv.cart",
+   "name": "Yük Arabası",
+   "category": "transport",
+   "cost": 200,
+   "reqs": [
+    "inv.wheel"
+   ],
+   "effects": {
+    "pct": {
+     "tradeProfit": 50.0
+    }
+   },
+   "description": "Şehir içi ve şehirler arası kaynak taşımayı hızlandırır; yük arabaları karada dolaşmaya başlar."
+  },
+  {
+   "id": "inv.advanced_mining",
+   "name": "Derin Madencilik",
+   "category": "production",
+   "cost": 220,
+   "reqs": [],
+   "effects": {
+    "pct": {
+     "mineYield": 50.0
+    }
+   },
+   "description": "Kazma ve yeraltı tahkimatı; maden ve taş ocaklarının verimi artar."
+  },
+  {
+   "id": "inv.shipbuilding",
+   "name": "Gemi Yapımı ve Donanma",
+   "category": "transport",
+   "cost": 300,
+   "reqs": [
+    "inv.sails"
+   ],
+   "effects": {
+    "pct": {
+     "boatHp": 50.0,
+     "colonizeChance": 40.0
+    }
+   },
+   "description": "Büyük kalyon ve savaş gemisi inşası; denizlerde donanma hakimiyeti ve sömürgecilik."
+  },
+  {
+   "id": "inv.catapult",
+   "name": "Kuşatma Mancınığı",
+   "category": "military",
+   "cost": 350,
+   "reqs": [
+    "inv.wheel"
+   ],
+   "effects": {
+    "pct": {
+     "wallDmg": 100.0
+    }
+   },
+   "description": "Ağır kuşatma makineleri; ordular savaşta düşman binalarını ve surlarını hızla yerle bir eder."
+  },
+  {
+   "id": "inv.printing_press",
+   "name": "Matbaa",
+   "category": "science",
+   "cost": 400,
+   "reqs": [],
+   "effects": {
+    "pct": {
+     "readChance": 100.0
+    }
+   },
+   "description": "Kitap ve bilgiyi hızla çoğaltır; kütüphaneler araştırma ve kültür yayılımını ikiye katlar."
+  },
+  {
+   "id": "inv.gunpowder",
+   "name": "Barut",
+   "category": "military",
+   "cost": 500,
+   "reqs": [],
+   "effects": {
+    "add": {
+     "morale": 20.0
+    }
+   },
+   "description": "Patlayıcı karışım; demirciler barutlu tüfekler üretir ve ordular ateşli silahlara kavuşur."
+  },
+  {
+   "id": "inv.steam_engine",
+   "name": "Buhar Makinesi",
+   "category": "production",
+   "cost": 700,
+   "reqs": [
+    "inv.advanced_mining"
+   ],
+   "effects": {
+    "add": {
+     "craftQuality": 1.0
+    }
+   },
+   "description": "Mekanik güç ve buhar enerjisi; atölyeler ve madenler çağ atlar."
+  },
+  {
+   "id": "inv.automobile",
+   "name": "İlk Araba (Buharlı Taşıt)",
+   "category": "transport",
+   "cost": 950,
+   "reqs": [
+    "inv.wheel",
+    "inv.steam_engine"
+   ],
+   "effects": {
+    "pct": {
+     "speed": 30.0
+    }
+   },
+   "description": "Karada kendi gücüyle giden ilk motorlu taşıt! Şehirler arasında yüksek hızla seyahat eder ve liderleri taşır."
+  }
+ ]
+}

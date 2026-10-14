@@ -1,0 +1,289 @@
+{
+ "category": "scenarios",
+ "count": 8,
+ "items": [
+  {
+   "id": "scenario.first_flame",
+   "name": "İlk Ateş",
+   "nameEn": "First Flame",
+   "description": "ui.scenario.first_flame.description",
+   "descriptionEn": "Protect the first community and keep at least 10 people alive for 50 years.",
+   "template": "wgt.continents",
+   "size": "Small",
+   "seed": 48101,
+   "startingSpecies": "sp.human",
+   "startingPopulation": 12,
+   "spawnAnimals": true,
+   "restrictPowers": true,
+   "allowedPowers": [
+    "pw.fertile_rain",
+    "pw.cloud_blessing"
+   ],
+   "goals": [
+    {
+     "metric": "elapsedYears",
+     "operator": "atLeast",
+     "target": 50,
+     "text": "ui.scenario.goal.survive_years"
+    },
+    {
+     "metric": "livingPopulation",
+     "operator": "atLeast",
+     "target": 10,
+     "text": "ui.scenario.goal.people_alive"
+    }
+   ],
+   "failures": [
+    {
+     "metric": "livingPopulation",
+     "operator": "atMost",
+     "target": 0,
+     "text": "ui.scenario.fail.no_people"
+    }
+   ]
+  },
+  {
+   "id": "scenario.great_famine",
+   "name": "Kıtlıktan Sonra",
+   "nameEn": "After the Famine",
+   "description": "ui.scenario.great_famine.description",
+   "descriptionEn": "Outlast the hard years; keep at least 15 people alive after 30 years.",
+   "template": "wgt.continents",
+   "size": "Small",
+   "seed": 71304,
+   "temperature": 0.72,
+   "moisture": 0.18,
+   "startingSpecies": "sp.human",
+   "startingPopulation": 18,
+   "spawnAnimals": true,
+   "restrictPowers": true,
+   "allowedPowers": [
+    "pw.fertile_rain",
+    "pw.cloud_rain",
+    "pw.blessing"
+   ],
+   "goals": [
+    {
+     "metric": "livingPopulation",
+     "operator": "atLeast",
+     "target": 15,
+     "text": "ui.scenario.goal.people_alive"
+    },
+    {
+     "metric": "elapsedYears",
+     "operator": "atLeast",
+     "target": 30,
+     "text": "ui.scenario.goal.survive_years"
+    }
+   ],
+   "failures": [
+    {
+     "metric": "livingPopulation",
+     "operator": "atMost",
+     "target": 0,
+     "text": "ui.scenario.fail.no_people"
+    }
+   ]
+  },
+  {
+   "id": "scenario.peace_envoy",
+   "name": "Barış Elçisi",
+   "nameEn": "Envoy of Peace",
+   "description": "ui.scenario.peace_envoy.description",
+   "descriptionEn": "Guide the kingdoms toward an alliance.",
+   "template": "wgt.continents",
+   "size": "Medium",
+   "seed": 90617,
+   "startingSpecies": "sp.human",
+   "startingPopulation": 28,
+   "spawnAnimals": true,
+   "restrictPowers": false,
+   "allowedPowers": [],
+   "goals": [
+    {
+     "metric": "alliances",
+     "operator": "atLeast",
+     "target": 1,
+     "text": "ui.scenario.goal.alliance"
+    }
+   ],
+   "failures": [
+    {
+     "metric": "livingPopulation",
+     "operator": "atMost",
+     "target": 0,
+     "text": "ui.scenario.fail.no_people"
+    }
+   ]
+  },
+  {
+   "id": "scenario.new_species",
+   "name": "Yeni Tür",
+   "nameEn": "A New Kind",
+   "description": "ui.scenario.new_species.description",
+   "descriptionEn": "Let two distinct subspecies emerge in the world.",
+   "template": "wgt.continents",
+   "size": "Small",
+   "seed": 22841,
+   "startingSpecies": "sp.human",
+   "startingPopulation": 16,
+   "spawnAnimals": true,
+   "restrictPowers": true,
+   "allowedPowers": [
+    "pw.monolith",
+    "pw.spawn_deer",
+    "pw.spawn_wolf"
+   ],
+   "goals": [
+    {
+     "metric": "subspecies",
+     "operator": "atLeast",
+     "target": 2,
+     "text": "ui.scenario.goal.subspecies"
+    }
+   ],
+   "failures": [
+    {
+     "metric": "elapsedYears",
+     "operator": "atLeast",
+     "target": 100,
+     "text": "ui.scenario.fail.time_limit"
+    }
+   ]
+  },
+  {
+   "id": "scenario.first_village",
+   "name": "İlk Köy",
+   "nameEn": "The First Village",
+   "description": "ui.scenario.first_village.description",
+   "descriptionEn": "Help the human community establish its first city.",
+   "template": "wgt.continents",
+   "size": "Small",
+   "seed": 32990,
+   "startingSpecies": "sp.human",
+   "startingPopulation": 20,
+   "spawnAnimals": true,
+   "restrictPowers": true,
+   "allowedPowers": [
+    "pw.bless_city",
+    "pw.fertile_rain"
+   ],
+   "goals": [
+    {
+     "metric": "livingCities",
+     "operator": "atLeast",
+     "target": 1,
+     "text": "ui.scenario.goal.city"
+    }
+   ],
+   "failures": [
+    {
+     "metric": "livingPopulation",
+     "operator": "atMost",
+     "target": 0,
+     "text": "ui.scenario.fail.no_people"
+    }
+   ]
+  },
+  {
+   "id": "scenario.kingdoms",
+   "name": "İki Taç",
+   "nameEn": "Two Crowns",
+   "description": "ui.scenario.kingdoms.description",
+   "descriptionEn": "Witness at least two kingdoms rise in the world.",
+   "template": "wgt.continents",
+   "size": "Medium",
+   "seed": 55223,
+   "startingSpecies": "sp.human",
+   "startingPopulation": 32,
+   "spawnAnimals": true,
+   "restrictPowers": false,
+   "allowedPowers": [],
+   "goals": [
+    {
+     "metric": "livingKingdoms",
+     "operator": "atLeast",
+     "target": 2,
+     "text": "ui.scenario.goal.kingdoms"
+    }
+   ],
+   "failures": [
+    {
+     "metric": "elapsedYears",
+     "operator": "atLeast",
+     "target": 150,
+     "text": "ui.scenario.fail.time_limit"
+    }
+   ]
+  },
+  {
+   "id": "scenario.growing_hamlet",
+   "name": "Büyüyen Yerleşim",
+   "nameEn": "A Growing Settlement",
+   "description": "ui.scenario.growing_hamlet.description",
+   "descriptionEn": "Grow the settlement into a community of 50.",
+   "template": "wgt.continents",
+   "size": "Small",
+   "seed": 64018,
+   "startingSpecies": "sp.human",
+   "startingPopulation": 12,
+   "spawnAnimals": true,
+   "restrictPowers": true,
+   "allowedPowers": [
+    "pw.fertile_rain",
+    "pw.cloud_blessing",
+    "pw.bless_city"
+   ],
+   "goals": [
+    {
+     "metric": "livingPopulation",
+     "operator": "atLeast",
+     "target": 50,
+     "text": "ui.scenario.goal.population_50"
+    }
+   ],
+   "failures": [
+    {
+     "metric": "elapsedYears",
+     "operator": "atLeast",
+     "target": 120,
+     "text": "ui.scenario.fail.time_limit"
+    }
+   ]
+  },
+  {
+   "id": "scenario.apocalypse",
+   "name": "Son Işık",
+   "nameEn": "The Last Light",
+   "description": "ui.scenario.apocalypse.description",
+   "descriptionEn": "Keep the last community alive for 40 years.",
+   "template": "wgt.continents",
+   "size": "Small",
+   "seed": 77102,
+   "startingSpecies": "sp.human",
+   "startingPopulation": 20,
+   "spawnAnimals": true,
+   "restrictPowers": true,
+   "allowedPowers": [
+    "pw.blessing",
+    "pw.cloud_rain"
+   ],
+   "goals": [
+    {
+     "metric": "elapsedYears",
+     "operator": "atLeast",
+     "target": 40,
+     "text": "ui.scenario.goal.survive_years"
+    }
+   ],
+   "failures": [
+    {
+     "metric": "livingPopulation",
+     "operator": "atMost",
+     "target": 0,
+     "text": "ui.scenario.fail.no_people"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "category": "war_types",
+ "count": 7,
+ "items": [
+  {
+   "id": "war.conquest",
+   "name": "Fetih Savaşı",
+   "causes": [
+    "border_dispute",
+    "resource_shortage",
+    "religious_difference",
+    "cultural_difference",
+    "revenge"
+   ],
+   "goals": [
+    "city_conquest",
+    "tribute",
+    "vassalize",
+    "plunder"
+   ]
+  },
+  {
+   "id": "war.rebellion",
+   "name": "İsyan Savaşı",
+   "causes": [
+    "rebellion_suppression"
+   ],
+   "goals": [
+    "city_conquest"
+   ]
+  },
+  {
+   "id": "war.religious",
+   "name": "Din Savaşı",
+   "causes": [
+    "religious_difference"
+   ],
+   "goals": [
+    "plunder",
+    "vassalize"
+   ]
+  },
+  {
+   "id": "war.independence",
+   "name": "Bağımsızlık Savaşı",
+   "causes": [
+    "rebellion_suppression"
+   ],
+   "goals": [
+    "vassalize",
+    "city_conquest"
+   ]
+  },
+  {
+   "id": "war.revenge",
+   "name": "İntikam Savaşı",
+   "causes": [
+    "revenge"
+   ],
+   "goals": [
+    "city_conquest",
+    "tribute",
+    "plunder"
+   ]
+  },
+  {
+   "id": "war.succession",
+   "name": "Veraset Savaşı",
+   "causes": [
+    "succession_dispute"
+   ],
+   "goals": [
+    "city_conquest",
+    "vassalize"
+   ]
+  },
+  {
+   "id": "war.world_war",
+   "name": "Herkese Karşı",
+   "causes": [
+    "alliance_call",
+    "border_dispute",
+    "resource_shortage"
+   ],
+   "goals": [
+    "city_conquest",
+    "tribute",
+    "vassalize",
+    "destruction",
+    "plunder"
+   ]
+  }
+ ]
+}

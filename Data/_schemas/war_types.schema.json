@@ -1,0 +1,49 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "war_types",
+ "type": "object",
+ "required": [
+  "category",
+  "items"
+ ],
+ "properties": {
+  "category": {
+   "const": "war_types"
+  },
+  "count": {
+   "type": "integer"
+  },
+  "items": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "id",
+     "name"
+    ],
+    "properties": {
+     "id": {
+      "type": "string",
+      "pattern": "^war\\.[a-z0-9_]+$"
+     },
+     "name": {
+      "type": "string"
+     },
+     "causes": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": { "enum": ["border_dispute", "resource_shortage", "religious_difference", "cultural_difference", "revenge", "alliance_call", "rebellion_suppression", "succession_dispute"] }
+     },
+     "goals": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": { "enum": ["city_conquest", "tribute", "vassalize", "destruction", "plunder"] }
+     }
+    },
+    "additionalProperties": true
+   }
+  }
+ }
+}

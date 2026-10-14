@@ -1,0 +1,1292 @@
+{
+ "category": "sounds",
+ "count": 61,
+ "items": [
+  {
+   "id": "snd.brush",
+   "name": "brush",
+   "files": [
+    "sfx/brush.wav"
+   ],
+   "volume": 0.35,
+   "pitch": [
+    0.9,
+    1.1
+   ],
+   "maxInstances": 1,
+   "cooldownMs": 90,
+   "category": "sfx",
+   "worldSpace": false,
+   "minLod": 0,
+   "maxLod": 3,
+   "loop": false,
+   "trigger": "brush",
+   "synth": "noise:0.12:0.3"
+  },
+  {
+   "id": "snd.power_world",
+   "name": "power world",
+   "files": [
+    "sfx/power_world.wav"
+   ],
+   "volume": 0.5,
+   "pitch": [
+    0.9,
+    1.1
+   ],
+   "maxInstances": 4,
+   "cooldownMs": 60,
+   "category": "sfx",
+   "worldSpace": false,
+   "minLod": 0,
+   "maxLod": 3,
+   "loop": false,
+   "trigger": "power.tab.world",
+   "synth": "sweep:300:180:0.2"
+  },
+  {
+   "id": "snd.power_civ",
+   "name": "power civ",
+   "files": [
+    "sfx/power_civ.wav"
+   ],
+   "volume": 0.5,
+   "pitch": [
+    0.9,
+    1.1
+   ],
+   "maxInstances": 4,
+   "cooldownMs": 60,
+   "category": "sfx",
+   "worldSpace": false,
+   "minLod": 0,
+   "maxLod": 3,
+   "loop": false,
+   "trigger": "power.tab.civ",
+   "synth": "tone:660:0.18"
+  },
+  {
+   "id": "snd.power_creatures",
+   "name": "power creatures",
+   "files": [
+    "sfx/power_creatures.wav"
+   ],
+   "volume": 0.5,
+   "pitch": [
+    0.9,
+    1.1
+   ],
+   "maxInstances": 4,
+   "cooldownMs": 60,
+   "category": "sfx",
+   "worldSpace": false,
+   "minLod": 0,
+   "maxLod": 3,
+   "loop": false,
+   "trigger": "power.tab.creatures",
+   "synth": "sweep:500:900:0.15"
+  },
+  {
+   "id": "snd.power_nature",
+   "name": "power nature",
+   "files": [
+    "sfx/power_nature.wav"
+   ],
+   "volume": 0.5,
+   "pitch": [
+    0.9,
+    1.1
+   ],
+   "maxInstances": 4,
+   "cooldownMs": 60,
+   "category": "sfx",
+   "worldSpace": false,
+   "minLod": 0,
+   "maxLod": 3,
+   "loop": false,
+   "trigger": "power.tab.nature",
+   "synth": "noise:0.3:0.15"
+  },
+  {
+   "id": "snd.power_destruction",
+   "name": "power destruction",
+   "files": [
+    "sfx/power_destruction.wav"
+   ],
+   "volume": 0.6,
+   "pitch": [
+    0.9,
+    1.1
+   ],
+   "maxInstances": 4,
+   "cooldownMs": 60,
+   "category": "sfx",
+   "worldSpace": false,
+   "minLod": 0,
+   "maxLod": 3,
+   "loop": false,
+   "trigger": "power.tab.destruction",
+   "synth": "sweep:220:60:0.3"
+  },
+  {
+   "id": "snd.power_other",
+   "name": "power other",
+   "files": [
+    "sfx/power_other.wav"
+   ],
+   "volume": 0.45,
+   "pitch": [
+    0.9,
+    1.1
+   ],
+   "maxInstances": 4,
+   "cooldownMs": 60,
+   "category": "sfx",
+   "worldSpace": false,
+   "minLod": 0,
+   "maxLod": 3,
+   "loop": false,
+   "trigger": "power.tab.other",
+   "synth": "tone:880:0.12"
+  },
+  {
+   "id": "snd.lightning",
+   "name": "lightning",
+   "files": [
+    "sfx/lightning.wav"
+   ],
+   "volume": 0.9,
+   "pitch": [
+    0.9,
+    1.1
+   ],
+   "maxInstances": 3,
+   "cooldownMs": 60,
+   "category": "sfx",
+   "worldSpace": true,
+   "minLod": 0,
+   "maxLod": 3,
+   "loop": false,
+   "trigger": "power:pw.lightning",
+   "synth": "noise:0.6:0.9"
+  },
+  {
+   "id": "snd.earthquake",
+   "name": "earthquake",
+   "files": [
+    "sfx/earthquake.wav"
+   ],
+   "volume": 0.9,
+   "pitch": [
+    0.9,
+    1.1
+   ],
+   "maxInstances": 1,
+   "cooldownMs": 1500,
+   "category": "sfx",
+   "worldSpace": true,
+   "minLod": 0,
+   "maxLod": 3,
+   "loop": false,
+   "trigger": "power:pw.earthquake",
+   "synth": "noise:2.5:0.02"
+  },
+  {
+   "id": "snd.tornado",
+   "name": "tornado",
+   "files": [
+    "sfx/tornado.wav"
+   ],
+   "volume": 0.7,
+   "pitch": [
+    0.9,
+    1.1
+   ],
+   "maxInstances": 2,
+   "cooldownMs": 1000,
+   "category": "sfx",
+   "worldSpace": true,
+   "minLod": 0,
+   "maxLod": 3,
+   "loop": false,
+   "trigger": "power:pw.tornado",
+   "synth": "noise:2.0:0.08"
+  },
+  {
+   "id": "snd.explosion_small",
+   "name": "explosion small",
+   "files": [
+    "sfx/explosion_small.wav"
+   ],
+   "volume": 0.7,
+   "pitch": [
+    0.9,
+    1.1
+   ],
+   "maxInstances": 4,
+   "cooldownMs": 60,
+   "category": "sfx",
+   "worldSpace": true,
+   "minLod": 0,
+   "maxLod": 3,
+   "loop": false,
+   "trigger": "explosion.small",
+   "synth": "noise:0.35:0.25"
+  },
+  {
+   "id": "snd.explosion_medium",
+   "name": "explosion medium",
+   "files": [
+    "sfx/explosion_medium.wav"
+   ],
+   "volume": 0.85,
+   "pitch": [
+    0.9,
+    1.1
+   ],
+   "maxInstances": 4,
+   "cooldownMs": 60,
+   "category": "sfx",
+   "worldSpace": true,
+   "minLod": 0,
+   "maxLod": 3,
+   "loop": false,
+   "trigger": "explosion.medium",
+   "synth": "noise:0.7:0.12"
+  },
+  {
+   "id": "snd.explosion_large",
+   "name": "explosion large",
+   "files": [
+    "sfx/explosion_large.wav"
+   ],
+   "volume": 0.95,
+   "pitch": [
+    0.9,
+    1.1
+   ],
+   "maxInstances": 3,
+   "cooldownMs": 60,
+   "category": "sfx",
+   "worldSpace": true,
+   "minLod": 0,
+   "maxLod": 3,
+   "loop": false,
+   "trigger": "explosion.large",
+   "synth": "noise:1.4:0.06"
+  },
+  {
+   "id": "snd.explosion_huge",
+   "name": "explosion huge",
+   "files": [
+    "sfx/explosion_huge.wav"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    0.9,
+    1.1
+   ],
+   "maxInstances": 2,
+   "cooldownMs": 60,
+   "category": "sfx",
+   "worldSpace": true,
+   "minLod": 0,
+   "maxLod": 3,
+   "loop": false,
+   "trigger": "explosion.huge",
+   "synth": "noise:3.0:0.03"
+  },
+  {
+   "id": "snd.splash",
+   "name": "splash",
+   "files": [
+    "sfx/splash.wav"
+   ],
+   "volume": 0.5,
+   "pitch": [
+    0.9,
+    1.1
+   ],
+   "maxInstances": 4,
+   "cooldownMs": 60,
+   "category": "sfx",
+   "worldSpace": true,
+   "minLod": 0,
+   "maxLod": 1,
+   "loop": false,
+   "trigger": "death.drowned",
+   "synth": "noise:0.25:0.5"
+  },
+  {
+   "id": "snd.hit_melee",
+   "name": "hit melee",
+   "files": [
+    "sfx/hit_melee.wav"
+   ],
+   "volume": 0.45,
+   "pitch": [
+    0.9,
+    1.1
+   ],
+   "maxInstances": 6,
+   "cooldownMs": 40,
+   "category": "sfx",
+   "worldSpace": true,
+   "minLod": 0,
+   "maxLod": 1,
+   "loop": false,
+   "trigger": "hit.melee",
+   "synth": "noise:0.06:0.7"
+  },
+  {
+   "id": "snd.hit_ranged",
+   "name": "hit ranged",
+   "files": [
+    "sfx/hit_ranged.wav"
+   ],
+   "volume": 0.4,
+   "pitch": [
+    0.9,
+    1.1
+   ],
+   "maxInstances": 6,
+   "cooldownMs": 40,
+   "category": "sfx",
+   "worldSpace": true,
+   "minLod": 0,
+   "maxLod": 1,
+   "loop": false,
+   "trigger": "hit.ranged",
+   "synth": "sweep:1200:700:0.08"
+  },
+  {
+   "id": "snd.hit_magic",
+   "name": "hit magic",
+   "files": [
+    "sfx/hit_magic.wav"
+   ],
+   "volume": 0.5,
+   "pitch": [
+    0.9,
+    1.1
+   ],
+   "maxInstances": 4,
+   "cooldownMs": 60,
+   "category": "sfx",
+   "worldSpace": true,
+   "minLod": 0,
+   "maxLod": 1,
+   "loop": false,
+   "trigger": "hit.magic",
+   "synth": "sweep:400:1600:0.2"
+  },
+  {
+   "id": "snd.death_small",
+   "name": "death small",
+   "files": [
+    "sfx/death_small.wav"
+   ],
+   "volume": 0.4,
+   "pitch": [
+    0.9,
+    1.1
+   ],
+   "maxInstances": 4,
+   "cooldownMs": 60,
+   "category": "sfx",
+   "worldSpace": true,
+   "minLod": 0,
+   "maxLod": 1,
+   "loop": false,
+   "trigger": "death.small",
+   "synth": "sweep:900:500:0.12"
+  },
+  {
+   "id": "snd.death_large",
+   "name": "death large",
+   "files": [
+    "sfx/death_large.wav"
+   ],
+   "volume": 0.55,
+   "pitch": [
+    0.9,
+    1.1
+   ],
+   "maxInstances": 4,
+   "cooldownMs": 60,
+   "category": "sfx",
+   "worldSpace": true,
+   "minLod": 0,
+   "maxLod": 1,
+   "loop": false,
+   "trigger": "death.large",
+   "synth": "sweep:260:120:0.35"
+  },
+  {
+   "id": "snd.death_civ",
+   "name": "death civ",
+   "files": [
+    "sfx/death_civ.wav"
+   ],
+   "volume": 0.5,
+   "pitch": [
+    0.9,
+    1.1
+   ],
+   "maxInstances": 4,
+   "cooldownMs": 60,
+   "category": "sfx",
+   "worldSpace": true,
+   "minLod": 0,
+   "maxLod": 1,
+   "loop": false,
+   "trigger": "death.civ",
+   "synth": "sweep:420:210:0.3"
+  },
+  {
+   "id": "snd.death_monster",
+   "name": "death monster",
+   "files": [
+    "sfx/death_monster.wav"
+   ],
+   "volume": 0.7,
+   "pitch": [
+    0.9,
+    1.1
+   ],
+   "maxInstances": 4,
+   "cooldownMs": 60,
+   "category": "sfx",
+   "worldSpace": true,
+   "minLod": 0,
+   "maxLod": 2,
+   "loop": false,
+   "trigger": "death.monster",
+   "synth": "sweep:160:60:0.6"
+  },
+  {
+   "id": "snd.death_undead",
+   "name": "death undead",
+   "files": [
+    "sfx/death_undead.wav"
+   ],
+   "volume": 0.55,
+   "pitch": [
+    0.9,
+    1.1
+   ],
+   "maxInstances": 4,
+   "cooldownMs": 60,
+   "category": "sfx",
+   "worldSpace": true,
+   "minLod": 0,
+   "maxLod": 1,
+   "loop": false,
+   "trigger": "death.undead",
+   "synth": "sweep:200:90:0.5"
+  },
+  {
+   "id": "snd.death_flying",
+   "name": "death flying",
+   "files": [
+    "sfx/death_flying.wav"
+   ],
+   "volume": 0.4,
+   "pitch": [
+    0.9,
+    1.1
+   ],
+   "maxInstances": 4,
+   "cooldownMs": 60,
+   "category": "sfx",
+   "worldSpace": true,
+   "minLod": 0,
+   "maxLod": 1,
+   "loop": false,
+   "trigger": "death.flying",
+   "synth": "sweep:1500:800:0.15"
+  },
+  {
+   "id": "snd.birth",
+   "name": "birth",
+   "files": [
+    "sfx/birth.wav"
+   ],
+   "volume": 0.3,
+   "pitch": [
+    0.9,
+    1.1
+   ],
+   "maxInstances": 2,
+   "cooldownMs": 400,
+   "category": "sfx",
+   "worldSpace": true,
+   "minLod": 0,
+   "maxLod": 0,
+   "loop": false,
+   "trigger": "birth",
+   "synth": "tone:1046:0.1"
+  },
+  {
+   "id": "snd.building_done",
+   "name": "building done",
+   "files": [
+    "sfx/building_done.wav"
+   ],
+   "volume": 0.45,
+   "pitch": [
+    0.9,
+    1.1
+   ],
+   "maxInstances": 2,
+   "cooldownMs": 300,
+   "category": "sfx",
+   "worldSpace": true,
+   "minLod": 0,
+   "maxLod": 2,
+   "loop": false,
+   "trigger": "building.completed",
+   "synth": "chord:523:0.4"
+  },
+  {
+   "id": "snd.building_destroyed",
+   "name": "building destroyed",
+   "files": [
+    "sfx/building_destroyed.wav"
+   ],
+   "volume": 0.6,
+   "pitch": [
+    0.9,
+    1.1
+   ],
+   "maxInstances": 4,
+   "cooldownMs": 60,
+   "category": "sfx",
+   "worldSpace": true,
+   "minLod": 0,
+   "maxLod": 2,
+   "loop": false,
+   "trigger": "building.destroyed",
+   "synth": "noise:0.6:0.1"
+  },
+  {
+   "id": "snd.war_bell",
+   "name": "war bell",
+   "files": [
+    "sfx/war_bell.wav"
+   ],
+   "volume": 0.8,
+   "pitch": [
+    0.9,
+    1.1
+   ],
+   "maxInstances": 1,
+   "cooldownMs": 2000,
+   "category": "sfx",
+   "worldSpace": false,
+   "minLod": 0,
+   "maxLod": 3,
+   "loop": false,
+   "trigger": "war.declared",
+   "synth": "chord:196:1.5"
+  },
+  {
+   "id": "snd.victory_horn",
+   "name": "victory horn",
+   "files": [
+    "sfx/victory_horn.wav"
+   ],
+   "volume": 0.8,
+   "pitch": [
+    0.9,
+    1.1
+   ],
+   "maxInstances": 1,
+   "cooldownMs": 2000,
+   "category": "sfx",
+   "worldSpace": false,
+   "minLod": 0,
+   "maxLod": 3,
+   "loop": false,
+   "trigger": "war.ended",
+   "synth": "chord:262:1.2"
+  },
+  {
+   "id": "snd.battle_crowd",
+   "name": "battle crowd",
+   "files": [
+    "sfx/battle_crowd.wav"
+   ],
+   "volume": 0.6,
+   "pitch": [
+    0.9,
+    1.1
+   ],
+   "maxInstances": 2,
+   "cooldownMs": 800,
+   "category": "sfx",
+   "worldSpace": true,
+   "minLod": 0,
+   "maxLod": 3,
+   "loop": false,
+   "trigger": "crowd",
+   "synth": "noise:1.2:0.2"
+  },
+  {
+   "id": "snd.ui_click",
+   "name": "ui click",
+   "files": [
+    "ui/ui_click.wav"
+   ],
+   "volume": 0.3,
+   "pitch": [
+    1,
+    1
+   ],
+   "maxInstances": 2,
+   "cooldownMs": 30,
+   "category": "ui",
+   "worldSpace": false,
+   "minLod": 0,
+   "maxLod": 3,
+   "loop": false,
+   "trigger": "ui.click",
+   "synth": "tone:1200:0.03"
+  },
+  {
+   "id": "snd.ui_open",
+   "name": "ui open",
+   "files": [
+    "ui/ui_open.wav"
+   ],
+   "volume": 0.35,
+   "pitch": [
+    1,
+    1
+   ],
+   "maxInstances": 4,
+   "cooldownMs": 60,
+   "category": "ui",
+   "worldSpace": false,
+   "minLod": 0,
+   "maxLod": 3,
+   "loop": false,
+   "trigger": "ui.open",
+   "synth": "sweep:600:900:0.08"
+  },
+  {
+   "id": "snd.ui_close",
+   "name": "ui close",
+   "files": [
+    "ui/ui_close.wav"
+   ],
+   "volume": 0.35,
+   "pitch": [
+    1,
+    1
+   ],
+   "maxInstances": 4,
+   "cooldownMs": 60,
+   "category": "ui",
+   "worldSpace": false,
+   "minLod": 0,
+   "maxLod": 3,
+   "loop": false,
+   "trigger": "ui.close",
+   "synth": "sweep:900:600:0.08"
+  },
+  {
+   "id": "snd.ui_notify",
+   "name": "ui notify",
+   "files": [
+    "ui/ui_notify.wav"
+   ],
+   "volume": 0.4,
+   "pitch": [
+    1,
+    1
+   ],
+   "maxInstances": 1,
+   "cooldownMs": 250,
+   "category": "ui",
+   "worldSpace": false,
+   "minLod": 0,
+   "maxLod": 3,
+   "loop": false,
+   "trigger": "ui.notify",
+   "synth": "tone:988:0.15"
+  },
+  {
+   "id": "snd.achievement",
+   "name": "achievement",
+   "files": [
+    "ui/achievement.wav"
+   ],
+   "volume": 0.6,
+   "pitch": [
+    1,
+    1
+   ],
+   "maxInstances": 1,
+   "cooldownMs": 60,
+   "category": "ui",
+   "worldSpace": false,
+   "minLod": 0,
+   "maxLod": 3,
+   "loop": false,
+   "trigger": "achievement",
+   "synth": "chord:784:1.0"
+  },
+  {
+   "id": "snd.amb_ocean",
+   "name": "amb ocean",
+   "files": [
+    "ambient/amb_ocean.wav"
+   ],
+   "volume": 0.45,
+   "pitch": [
+    1,
+    1
+   ],
+   "maxInstances": 4,
+   "cooldownMs": 60,
+   "category": "ambient",
+   "worldSpace": false,
+   "minLod": 0,
+   "maxLod": 3,
+   "loop": true,
+   "trigger": "ambient.ocean",
+   "synth": "noise:4:0.04"
+  },
+  {
+   "id": "snd.amb_forest",
+   "name": "amb forest",
+   "files": [
+    "ambient/amb_forest.wav"
+   ],
+   "volume": 0.25,
+   "pitch": [
+    1,
+    1
+   ],
+   "maxInstances": 4,
+   "cooldownMs": 60,
+   "category": "ambient",
+   "worldSpace": false,
+   "minLod": 0,
+   "maxLod": 3,
+   "loop": true,
+   "trigger": "ambient.forest",
+   "synth": "noise:4:0.35"
+  },
+  {
+   "id": "snd.amb_city",
+   "name": "amb city",
+   "files": [
+    "ambient/amb_city.wav"
+   ],
+   "volume": 0.35,
+   "pitch": [
+    1,
+    1
+   ],
+   "maxInstances": 4,
+   "cooldownMs": 60,
+   "category": "ambient",
+   "worldSpace": false,
+   "minLod": 0,
+   "maxLod": 3,
+   "loop": true,
+   "trigger": "ambient.city",
+   "synth": "noise:4:0.12"
+  },
+  {
+   "id": "snd.amb_fire",
+   "name": "amb fire",
+   "files": [
+    "ambient/amb_fire.wav"
+   ],
+   "volume": 0.4,
+   "pitch": [
+    1,
+    1
+   ],
+   "maxInstances": 4,
+   "cooldownMs": 60,
+   "category": "ambient",
+   "worldSpace": false,
+   "minLod": 0,
+   "maxLod": 3,
+   "loop": true,
+   "trigger": "ambient.fire",
+   "synth": "noise:4:0.6"
+  },
+  {
+   "id": "snd.amb_rain",
+   "name": "amb rain",
+   "files": [
+    "ambient/amb_rain.wav"
+   ],
+   "volume": 0.35,
+   "pitch": [
+    1,
+    1
+   ],
+   "maxInstances": 4,
+   "cooldownMs": 60,
+   "category": "ambient",
+   "worldSpace": false,
+   "minLod": 0,
+   "maxLod": 3,
+   "loop": true,
+   "trigger": "ambient.rain",
+   "synth": "noise:4:0.8",
+   "clouds": [
+    "cloud.rain",
+    "cloud.storm",
+    "cloud.acid"
+   ]
+  },
+  {
+   "id": "snd.amb_wind",
+   "name": "amb wind",
+   "files": [
+    "ambient/amb_wind.wav"
+   ],
+   "volume": 0.3,
+   "pitch": [
+    1,
+    1
+   ],
+   "maxInstances": 4,
+   "cooldownMs": 60,
+   "category": "ambient",
+   "worldSpace": false,
+   "minLod": 0,
+   "maxLod": 3,
+   "loop": true,
+   "trigger": "ambient.wind",
+   "synth": "noise:4:0.02"
+  },
+  {
+   "id": "snd.music_dawn_calm",
+   "name": "music dawn calm",
+   "files": [
+    "music/music_dawn_calm.wav"
+   ],
+   "volume": 0.35,
+   "pitch": [
+    1,
+    1
+   ],
+   "maxInstances": 1,
+   "cooldownMs": 60,
+   "category": "music",
+   "worldSpace": false,
+   "minLod": 0,
+   "maxLod": 3,
+   "loop": true,
+   "trigger": "music.era.dawn.calm",
+   "synth": "chord:262:8"
+  },
+  {
+   "id": "snd.music_dawn_tense",
+   "name": "music dawn tense",
+   "files": [
+    "music/music_dawn_tense.wav"
+   ],
+   "volume": 0.35,
+   "pitch": [
+    1,
+    1
+   ],
+   "maxInstances": 1,
+   "cooldownMs": 60,
+   "category": "music",
+   "worldSpace": false,
+   "minLod": 0,
+   "maxLod": 3,
+   "loop": true,
+   "trigger": "music.era.dawn.tense",
+   "synth": "pulse:131:8:2"
+  },
+  {
+   "id": "snd.music_scorch_calm",
+   "name": "music scorch calm",
+   "files": [
+    "music/music_scorch_calm.wav"
+   ],
+   "volume": 0.35,
+   "pitch": [
+    1,
+    1
+   ],
+   "maxInstances": 1,
+   "cooldownMs": 60,
+   "category": "music",
+   "worldSpace": false,
+   "minLod": 0,
+   "maxLod": 3,
+   "loop": true,
+   "trigger": "music.era.scorch.calm",
+   "synth": "chord:294:8"
+  },
+  {
+   "id": "snd.music_scorch_tense",
+   "name": "music scorch tense",
+   "files": [
+    "music/music_scorch_tense.wav"
+   ],
+   "volume": 0.35,
+   "pitch": [
+    1,
+    1
+   ],
+   "maxInstances": 1,
+   "cooldownMs": 60,
+   "category": "music",
+   "worldSpace": false,
+   "minLod": 0,
+   "maxLod": 3,
+   "loop": true,
+   "trigger": "music.era.scorch.tense",
+   "synth": "pulse:147:8:2"
+  },
+  {
+   "id": "snd.music_rain_calm",
+   "name": "music rain calm",
+   "files": [
+    "music/music_rain_calm.wav"
+   ],
+   "volume": 0.35,
+   "pitch": [
+    1,
+    1
+   ],
+   "maxInstances": 1,
+   "cooldownMs": 60,
+   "category": "music",
+   "worldSpace": false,
+   "minLod": 0,
+   "maxLod": 3,
+   "loop": true,
+   "trigger": "music.era.rain.calm",
+   "synth": "chord:220:8"
+  },
+  {
+   "id": "snd.music_rain_tense",
+   "name": "music rain tense",
+   "files": [
+    "music/music_rain_tense.wav"
+   ],
+   "volume": 0.35,
+   "pitch": [
+    1,
+    1
+   ],
+   "maxInstances": 1,
+   "cooldownMs": 60,
+   "category": "music",
+   "worldSpace": false,
+   "minLod": 0,
+   "maxLod": 3,
+   "loop": true,
+   "trigger": "music.era.rain.tense",
+   "synth": "pulse:110:8:2"
+  },
+  {
+   "id": "snd.music_ice_calm",
+   "name": "music ice calm",
+   "files": [
+    "music/music_ice_calm.wav"
+   ],
+   "volume": 0.35,
+   "pitch": [
+    1,
+    1
+   ],
+   "maxInstances": 1,
+   "cooldownMs": 60,
+   "category": "music",
+   "worldSpace": false,
+   "minLod": 0,
+   "maxLod": 3,
+   "loop": true,
+   "trigger": "music.era.ice.calm",
+   "synth": "chord:247:8"
+  },
+  {
+   "id": "snd.music_ice_tense",
+   "name": "music ice tense",
+   "files": [
+    "music/music_ice_tense.wav"
+   ],
+   "volume": 0.35,
+   "pitch": [
+    1,
+    1
+   ],
+   "maxInstances": 1,
+   "cooldownMs": 60,
+   "category": "music",
+   "worldSpace": false,
+   "minLod": 0,
+   "maxLod": 3,
+   "loop": true,
+   "trigger": "music.era.ice.tense",
+   "synth": "pulse:123:8:2"
+  },
+  {
+   "id": "snd.music_shadow_calm",
+   "name": "music shadow calm",
+   "files": [
+    "music/music_shadow_calm.wav"
+   ],
+   "volume": 0.35,
+   "pitch": [
+    1,
+    1
+   ],
+   "maxInstances": 1,
+   "cooldownMs": 60,
+   "category": "music",
+   "worldSpace": false,
+   "minLod": 0,
+   "maxLod": 3,
+   "loop": true,
+   "trigger": "music.era.shadow.calm",
+   "synth": "chord:196:8"
+  },
+  {
+   "id": "snd.music_shadow_tense",
+   "name": "music shadow tense",
+   "files": [
+    "music/music_shadow_tense.wav"
+   ],
+   "volume": 0.35,
+   "pitch": [
+    1,
+    1
+   ],
+   "maxInstances": 1,
+   "cooldownMs": 60,
+   "category": "music",
+   "worldSpace": false,
+   "minLod": 0,
+   "maxLod": 3,
+   "loop": true,
+   "trigger": "music.era.shadow.tense",
+   "synth": "pulse:98:8:2"
+  },
+  {
+   "id": "snd.music_blood_calm",
+   "name": "music blood calm",
+   "files": [
+    "music/music_blood_calm.wav"
+   ],
+   "volume": 0.35,
+   "pitch": [
+    1,
+    1
+   ],
+   "maxInstances": 1,
+   "cooldownMs": 60,
+   "category": "music",
+   "worldSpace": false,
+   "minLod": 0,
+   "maxLod": 3,
+   "loop": true,
+   "trigger": "music.era.blood.calm",
+   "synth": "chord:208:8"
+  },
+  {
+   "id": "snd.music_blood_tense",
+   "name": "music blood tense",
+   "files": [
+    "music/music_blood_tense.wav"
+   ],
+   "volume": 0.35,
+   "pitch": [
+    1,
+    1
+   ],
+   "maxInstances": 1,
+   "cooldownMs": 60,
+   "category": "music",
+   "worldSpace": false,
+   "minLod": 0,
+   "maxLod": 3,
+   "loop": true,
+   "trigger": "music.era.blood.tense",
+   "synth": "pulse:104:8:2"
+  },
+  {
+   "id": "snd.music_glimmer_calm",
+   "name": "music glimmer calm",
+   "files": [
+    "music/music_glimmer_calm.wav"
+   ],
+   "volume": 0.35,
+   "pitch": [
+    1,
+    1
+   ],
+   "maxInstances": 1,
+   "cooldownMs": 60,
+   "category": "music",
+   "worldSpace": false,
+   "minLod": 0,
+   "maxLod": 3,
+   "loop": true,
+   "trigger": "music.era.glimmer.calm",
+   "synth": "chord:330:8"
+  },
+  {
+   "id": "snd.music_glimmer_tense",
+   "name": "music glimmer tense",
+   "files": [
+    "music/music_glimmer_tense.wav"
+   ],
+   "volume": 0.35,
+   "pitch": [
+    1,
+    1
+   ],
+   "maxInstances": 1,
+   "cooldownMs": 60,
+   "category": "music",
+   "worldSpace": false,
+   "minLod": 0,
+   "maxLod": 3,
+   "loop": true,
+   "trigger": "music.era.glimmer.tense",
+   "synth": "pulse:165:8:2"
+  },
+  {
+   "id": "snd.music_ash_calm",
+   "name": "music ash calm",
+   "files": [
+    "music/music_ash_calm.wav"
+   ],
+   "volume": 0.35,
+   "pitch": [
+    1,
+    1
+   ],
+   "maxInstances": 1,
+   "cooldownMs": 60,
+   "category": "music",
+   "worldSpace": false,
+   "minLod": 0,
+   "maxLod": 3,
+   "loop": true,
+   "trigger": "music.era.ash.calm",
+   "synth": "chord:185:8"
+  },
+  {
+   "id": "snd.music_ash_tense",
+   "name": "music ash tense",
+   "files": [
+    "music/music_ash_tense.wav"
+   ],
+   "volume": 0.35,
+   "pitch": [
+    1,
+    1
+   ],
+   "maxInstances": 1,
+   "cooldownMs": 60,
+   "category": "music",
+   "worldSpace": false,
+   "minLod": 0,
+   "maxLod": 3,
+   "loop": true,
+   "trigger": "music.era.ash.tense",
+   "synth": "pulse:92:8:2"
+  },
+  {
+   "id": "snd.music_pale_calm",
+   "name": "music pale calm",
+   "files": [
+    "music/music_pale_calm.wav"
+   ],
+   "volume": 0.35,
+   "pitch": [
+    1,
+    1
+   ],
+   "maxInstances": 1,
+   "cooldownMs": 60,
+   "category": "music",
+   "worldSpace": false,
+   "minLod": 0,
+   "maxLod": 3,
+   "loop": true,
+   "trigger": "music.era.pale.calm",
+   "synth": "chord:233:8"
+  },
+  {
+   "id": "snd.music_pale_tense",
+   "name": "music pale tense",
+   "files": [
+    "music/music_pale_tense.wav"
+   ],
+   "volume": 0.35,
+   "pitch": [
+    1,
+    1
+   ],
+   "maxInstances": 1,
+   "cooldownMs": 60,
+   "category": "music",
+   "worldSpace": false,
+   "minLod": 0,
+   "maxLod": 3,
+   "loop": true,
+   "trigger": "music.era.pale.tense",
+   "synth": "pulse:116:8:2"
+  },
+  {
+   "id": "snd.music_harvest_calm",
+   "name": "music harvest calm",
+   "files": [
+    "music/music_harvest_calm.wav"
+   ],
+   "volume": 0.35,
+   "pitch": [
+    1,
+    1
+   ],
+   "maxInstances": 1,
+   "cooldownMs": 60,
+   "category": "music",
+   "worldSpace": false,
+   "minLod": 0,
+   "maxLod": 3,
+   "loop": true,
+   "trigger": "music.era.harvest.calm",
+   "synth": "chord:277:8"
+  },
+  {
+   "id": "snd.music_harvest_tense",
+   "name": "music harvest tense",
+   "files": [
+    "music/music_harvest_tense.wav"
+   ],
+   "volume": 0.35,
+   "pitch": [
+    1,
+    1
+   ],
+   "maxInstances": 1,
+   "cooldownMs": 60,
+   "category": "music",
+   "worldSpace": false,
+   "minLod": 0,
+   "maxLod": 3,
+   "loop": true,
+   "trigger": "music.era.harvest.tense",
+   "synth": "pulse:138:8:2"
+  }
+ ]
+}

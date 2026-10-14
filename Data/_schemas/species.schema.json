@@ -1,0 +1,98 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "species",
+ "type": "object",
+ "required": [
+  "category",
+  "items"
+ ],
+ "properties": {
+  "category": {
+   "const": "species"
+  },
+  "count": {
+   "type": "integer"
+  },
+  "items": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "abilities",
+      "bodySize",
+     "canEvolve",
+     "category",
+     "diet",
+      "foodNeed",
+     "habitat",
+     "id",
+     "name",
+     "note",
+      "prey",
+     "reproduction",
+     "sapientAtStart",
+      "stats",
+      "trophicLevel"
+    ],
+    "properties": {
+     "id": {
+      "type": "string",
+      "pattern": "^sp\\.[a-z0-9_]+$"
+     },
+     "name": {
+      "type": "string"
+     },
+     "category": {
+      "type": "string"
+     },
+     "sapientAtStart": {
+      "type": "boolean"
+     },
+     "canEvolve": {
+      "type": "boolean"
+     },
+     "diet": {
+      "type": "string"
+     },
+      "prey": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "pattern": "^sp\\.[a-z0-9_]+$"
+        },
+        "uniqueItems": true
+      },
+      "trophicLevel": {
+        "type": "number",
+        "minimum": 0,
+        "maximum": 4
+      },
+      "bodySize": {
+        "type": "number",
+        "exclusiveMinimum": 0
+      },
+      "foodNeed": {
+        "type": "number",
+        "minimum": 0
+      },
+     "habitat": {
+      "type": "string"
+     },
+     "stats": {
+      "type": "object"
+     },
+     "reproduction": {
+      "type": "string"
+     },
+     "abilities": {
+      "type": "object"
+     },
+     "note": {
+      "type": "string"
+     }
+    },
+    "additionalProperties": true
+   }
+  }
+ }
+}

@@ -1,0 +1,39 @@
+{
+    "name": "PG.Tests.EditMode",
+    "rootNamespace": "PG.Tests.EditMode",
+    "references": [
+        "PG.Core",
+        "PG.Content",
+        "PG.World",
+        "PG.WorldGen",
+        "PG.Sim",
+        "PG.Powers",
+        "PG.Render",
+        "PG.Persistence",
+        "PG.Governor",
+        "PG.UI",
+        "PG.Boot",
+        "PG.Editor",
+        "Unity.Burst",
+        "Unity.Collections",
+        "Unity.Mathematics",
+        "UnityEngine.TestRunner",
+        "UnityEditor.TestRunner"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll",
+        "Newtonsoft.Json.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

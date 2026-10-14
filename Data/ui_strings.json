@@ -1,0 +1,3306 @@
+{
+ "category": "ui_strings",
+ "count": 660,
+ "items": [
+  {
+   "id": "ui.unit_sex_fmt",
+   "tr": "Cinsiyet: {0}",
+   "en": "Sex: {0}"
+  },
+  {
+   "id": "ui.sex_female",
+   "tr": "Dişi",
+   "en": "Female"
+  },
+  {
+   "id": "ui.sex_male",
+   "tr": "Erkek",
+   "en": "Male"
+  },
+  {
+   "id": "ui.sex_none",
+   "tr": "Cinsiyetsiz",
+   "en": "Sexless"
+  },
+  {
+   "id": "ui.family_pregnant",
+   "tr": "Bebek bekliyor",
+   "en": "Expecting a baby"
+  },
+  {
+   "id": "ui.family_courting",
+   "tr": "Yakınlaşıyor",
+   "en": "Courting"
+  },
+  {
+   "id": "ui.family_paired",
+   "tr": "Eşiyle birlikte",
+   "en": "Paired"
+  },
+  {
+   "id": "ui.family_single",
+   "tr": "Henüz eşi yok",
+   "en": "No partner yet"
+  },
+  {
+   "id": "ui.pause",
+   "tr": "Duraklat",
+   "en": "Pause"
+  },
+  {
+   "id": "ui.step",
+   "tr": "Tek Adım",
+   "en": "Step"
+  },
+  {
+   "id": "ui.super_speed",
+   "tr": "Süper Hız",
+   "en": "Super Speed"
+  },
+  {
+   "id": "ui.speed_fmt",
+   "tr": "×{0}",
+   "en": "×{0}"
+  },
+  {
+   "id": "ui.date_fmt",
+   "tr": "Yıl {0} · Ay {1}",
+   "en": "Year {0} · Month {1}"
+  },
+  {
+   "id": "ui.tab.world",
+   "tr": "Dünya",
+   "en": "World"
+  },
+  {
+   "id": "ui.tab.civ",
+   "tr": "Medeniyetler",
+   "en": "Civilizations"
+  },
+  {
+   "id": "ui.tab.creatures",
+   "tr": "Yaratıklar",
+   "en": "Creatures"
+  },
+  {
+   "id": "ui.tab.nature",
+   "tr": "Doğa ve Afetler",
+   "en": "Nature & Disasters"
+  },
+  {
+   "id": "ui.tab.destruction",
+   "tr": "Yıkım",
+   "en": "Destruction"
+  },
+  {
+   "id": "ui.tab.other",
+   "tr": "Diğer",
+   "en": "Other"
+  },
+  {
+   "id": "ui.brush_size",
+   "tr": "Fırça",
+   "en": "Brush"
+  },
+  {
+   "id": "ui.shape.circle",
+   "tr": "Daire",
+   "en": "Circle"
+  },
+  {
+   "id": "ui.shape.square",
+   "tr": "Kare",
+   "en": "Square"
+  },
+  {
+   "id": "ui.menu",
+   "tr": "Menü",
+   "en": "Menu"
+  },
+  {
+   "id": "ui.new_world",
+   "tr": "Yeni Dünya",
+   "en": "New World"
+  },
+  {
+   "id": "ui.generate",
+   "tr": "Üret",
+   "en": "Generate"
+  },
+  {
+   "id": "ui.cancel",
+   "tr": "Vazgeç",
+   "en": "Cancel"
+  },
+  {
+   "id": "ui.close",
+   "tr": "Kapat",
+   "en": "Close"
+  },
+  {
+   "id": "ui.template",
+   "tr": "Şablon",
+   "en": "Template"
+  },
+  {
+   "id": "ui.size",
+   "tr": "Boyut",
+   "en": "Size"
+  },
+  {
+   "id": "ui.seed",
+   "tr": "Tohum",
+   "en": "Seed"
+  },
+  {
+   "id": "ui.randomize",
+   "tr": "Rastgele",
+   "en": "Randomize"
+  },
+  {
+   "id": "ui.image_path",
+   "tr": "Görüntü yolu (PNG)",
+   "en": "Image path (PNG)"
+  },
+  {
+   "id": "ui.land_ratio",
+   "tr": "Kara oranı",
+   "en": "Land ratio"
+  },
+  {
+   "id": "ui.mountain_ratio",
+   "tr": "Dağ oranı",
+   "en": "Mountain ratio"
+  },
+  {
+   "id": "ui.hill_ratio",
+   "tr": "Tepe oranı",
+   "en": "Hill ratio"
+  },
+  {
+   "id": "ui.roughness",
+   "tr": "Kıyı girintisi",
+   "en": "Roughness"
+  },
+  {
+   "id": "ui.forest_density",
+   "tr": "Orman yoğunluğu",
+   "en": "Forest density"
+  },
+  {
+   "id": "ui.biome_variety",
+   "tr": "Biyom çeşitliliği",
+   "en": "Biome variety"
+  },
+  {
+   "id": "ui.ore_density",
+   "tr": "Maden yoğunluğu",
+   "en": "Ore density"
+  },
+  {
+   "id": "ui.temperature",
+   "tr": "Sıcaklık",
+   "en": "Temperature"
+  },
+  {
+   "id": "ui.moisture",
+   "tr": "Nem",
+   "en": "Moisture"
+  },
+  {
+   "id": "ui.river_density",
+   "tr": "Nehir yoğunluğu",
+   "en": "River density"
+  },
+  {
+   "id": "ui.worldgen_memory_fmt",
+   "tr": "Harita {0}×{0} · üretim tile belleği yaklaşık {1} MiB · önizleme {2}×{2} (~{3} MiB)",
+   "en": "Map {0}×{0} · approx. {1} MiB generation tile memory · preview {2}×{2} (~{3} MiB)"
+  },
+  {
+   "id": "ui.scenario",
+   "tr": "Senaryo",
+   "en": "Scenario"
+  },
+  {
+   "id": "ui.spawn_civs",
+   "tr": "Uygarlıklarla başla",
+   "en": "Start with civilizations"
+  },
+  {
+   "id": "ui.recent_powers",
+   "tr": "Son kullanılan",
+   "en": "Recent"
+  },
+  {
+   "id": "ui.undo",
+   "tr": "Geri al",
+   "en": "Undo"
+  },
+  {
+   "id": "ui.undo_complete",
+   "tr": "Son büyük müdahale geri alındı.",
+   "en": "The last major action was undone."
+  },
+  {
+   "id": "ui.undo_failed",
+   "tr": "Geri alma başarısız: {0}",
+   "en": "Undo failed: {0}"
+  },
+  {
+   "id": "ui.undo_snapshot_failed",
+   "tr": "Geri alma anlık görüntüsü oluşturulamadı.",
+   "en": "Undo snapshot could not be created."
+  },
+  {
+   "id": "ui.suggestions",
+   "tr": "Ne yapabilirim?",
+   "en": "What can I do?"
+  },
+  {
+   "id": "ui.suggestion.open",
+   "tr": "Göster",
+   "en": "Show"
+  },
+  {
+   "id": "ui.suggestion.select_tool",
+   "tr": "Önerilen aracı seç",
+   "en": "Select suggested tool"
+  },
+  {
+   "id": "ui.power_search_empty",
+   "tr": "Bu aramayla eşleşen güç bulunamadı.",
+   "en": "No powers match this search."
+  },
+  {
+   "id": "ui.power_tab_empty",
+   "tr": "Bu sekmede kullanılabilir güç yok.",
+   "en": "No available powers in this tab."
+  },
+  {
+   "id": "ui.power_search_clear",
+   "tr": "Aramayı temizle",
+   "en": "Clear search"
+  },
+  {
+   "id": "ui.suggestion.power_unavailable",
+   "tr": "Bu senaryoda insan bırakma gücü kullanılamıyor.",
+   "en": "The human spawn power is unavailable in this scenario."
+  },
+  {
+   "id": "ui.suggestion.food",
+   "tr": "Bir şehirde yiyecek azalıyor",
+   "en": "A city is running low on food"
+  },
+  {
+   "id": "ui.suggestion.food.detail",
+   "tr": "Açlık ve erzak durumunu incele; şehir penceresi haritadaki merkezinde açılır.",
+   "en": "Review hunger and supplies; the city window opens at its map location."
+  },
+  {
+   "id": "ui.suggestion.housing",
+   "tr": "Şehirde konut açığı var",
+   "en": "A city needs more housing"
+  },
+  {
+   "id": "ui.suggestion.housing.detail",
+   "tr": "Nüfus mevcut konutu aşmış. Şehir penceresinden yapı ve planlama durumuna bak.",
+   "en": "Population exceeds current housing. Review buildings and planning in the city window."
+  },
+  {
+   "id": "ui.suggestion.war",
+   "tr": "Dünyada savaş sürüyor",
+   "en": "A war is underway"
+  },
+  {
+   "id": "ui.suggestion.war.detail",
+   "tr": "Tarafları ve hedefleri gözden geçir; bu öneri simülasyona müdahale etmez.",
+   "en": "Review the sides and objectives; this suggestion does not alter the simulation."
+  },
+  {
+   "id": "ui.suggestion.foundcivilization",
+   "tr": "Dünyada medeniyet yok",
+   "en": "There is no civilization in the world"
+  },
+  {
+   "id": "ui.suggestion.foundcivilization.detail",
+   "tr": "İnsan bırakma gücünü seç; ardından haritada yerleştirmek istediğin noktayı belirle.",
+   "en": "Select the human spawn power, then choose where to place them on the map."
+  },
+  {
+   "id": "ui.suggestion.observe",
+   "tr": "Dünyada acil bir sorun görünmüyor",
+   "en": "No urgent issue is visible"
+  },
+  {
+   "id": "ui.suggestion.observe.detail",
+   "tr": "Tarihçe penceresinden dünyadaki yeni gelişmeleri izleyebilirsin.",
+   "en": "Follow new developments in the world history window."
+  },
+  {
+   "id": "ui.power_undiscovered_fmt",
+   "tr": "Bu güç henüz keşfedilmedi. Açmak için {0}: {1}",
+   "en": "This power has not been discovered yet. Unlock it with {0}: {1}"
+  },
+  {
+   "id": "ui.power_discovered_fmt",
+   "tr": "Yeni güç açıldı: {0}",
+   "en": "New power unlocked: {0}"
+  },
+  {
+   "id": "ui.powers_discovered_fmt",
+   "tr": "{0} yeni güç açıldı",
+   "en": "{0} new powers unlocked"
+  },
+  {
+   "id": "ui.kingdom_watch",
+   "tr": "Krallığı izle",
+   "en": "Watch kingdom"
+  },
+  {
+   "id": "ui.kingdom_unwatch",
+   "tr": "İzlemeyi bırak",
+   "en": "Stop watching"
+  },
+  {
+   "id": "ui.scenario_sandbox",
+   "tr": "Sandbox · hedef yok",
+   "en": "Sandbox · no objectives"
+  },
+  {
+   "id": "ui.scenario_objectives",
+   "tr": "Senaryo hedefleri",
+   "en": "Scenario objectives"
+  },
+  {
+   "id": "ui.scenario_active",
+   "tr": "Devam ediyor",
+   "en": "In progress"
+  },
+  {
+   "id": "ui.scenario_won",
+   "tr": "Senaryo tamamlandı",
+   "en": "Scenario completed"
+  },
+  {
+   "id": "ui.scenario_lost",
+   "tr": "Senaryo başarısız",
+   "en": "Scenario failed"
+  },
+  {
+   "id": "ui.scenario_sandbox_status",
+   "tr": "Sandbox dünyası · isteğe bağlı senaryo seçebilirsin.",
+   "en": "Sandbox world · you can choose an optional scenario."
+  },
+  {
+   "id": "ui.scenario_goal_fmt",
+   "tr": "{0}: {1} / {2}",
+   "en": "{0}: {1} / {2}"
+  },
+  {
+   "id": "ui.scenario_failure_conditions",
+   "tr": "Kaybetme koşulları",
+   "en": "Failure conditions"
+  },
+  {
+   "id": "ui.scenario_failure_fmt",
+   "tr": "{0} · {1} {2} (şu an: {3})",
+   "en": "{0} · {1} {2} (current: {3})"
+  },
+  {
+   "id": "ui.scenario_at_most",
+   "tr": "en fazla",
+   "en": "at most"
+  },
+  {
+   "id": "ui.scenario_at_least",
+   "tr": "en az",
+   "en": "at least"
+  },
+  {
+   "id": "ui.scenario_power_blocked",
+   "tr": "Bu senaryoda bu güç kullanılamaz.",
+   "en": "This power is unavailable in this scenario."
+  },
+  {
+   "id": "ui.scenario.first_flame.description",
+   "tr": "İlk topluluğu koru ve 50 yıl boyunca en az 10 kişinin hayatta kalmasını sağla.",
+   "en": "Protect the first community and keep at least 10 people alive for 50 years."
+  },
+  {
+   "id": "ui.scenario.great_famine.description",
+   "tr": "Zorlu yılları atlat; 30 yıl sonra toplulukta en az 15 kişi yaşasın.",
+   "en": "Outlast the hard years; keep at least 15 people alive after 30 years."
+  },
+  {
+   "id": "ui.scenario.peace_envoy.description",
+   "tr": "Dünyanın krallıkları arasında bir ittifak kurulmasını bekle.",
+   "en": "Guide the kingdoms toward an alliance."
+  },
+  {
+   "id": "ui.scenario.new_species.description",
+   "tr": "Dünyada iki farklı alt türün ortaya çıkmasını sağla.",
+   "en": "Let two distinct subspecies emerge in the world."
+  },
+  {
+   "id": "ui.scenario.first_village.description",
+   "tr": "İnsan topluluğunun ilk şehrini kurmasını sağla.",
+   "en": "Help the human community establish its first city."
+  },
+  {
+   "id": "ui.scenario.kingdoms.description",
+   "tr": "Dünyada en az iki yaşayan krallığın yükselişini izle.",
+   "en": "Witness at least two kingdoms rise in the world."
+  },
+  {
+   "id": "ui.scenario.growing_hamlet.description",
+   "tr": "Yerleşimi 50 kişilik bir topluluğa büyüt.",
+   "en": "Grow the settlement into a community of 50."
+  },
+  {
+   "id": "ui.scenario.apocalypse.description",
+   "tr": "Son topluluğu 40 yıl boyunca ayakta tut.",
+   "en": "Keep the last community alive for 40 years."
+  },
+  {
+   "id": "ui.scenario.goal.survive_years",
+   "tr": "Hayatta kalınan yıl",
+   "en": "Years survived"
+  },
+  {
+   "id": "ui.scenario.goal.people_alive",
+   "tr": "Yaşayan insan",
+   "en": "People alive"
+  },
+  {
+   "id": "ui.scenario.goal.alliance",
+   "tr": "Kurulan ittifak",
+   "en": "Alliances formed"
+  },
+  {
+   "id": "ui.scenario.goal.subspecies",
+   "tr": "Alt tür",
+   "en": "Subspecies"
+  },
+  {
+   "id": "ui.scenario.goal.city",
+   "tr": "Yaşayan şehir",
+   "en": "Living cities"
+  },
+  {
+   "id": "ui.scenario.goal.kingdoms",
+   "tr": "Yaşayan krallık",
+   "en": "Living kingdoms"
+  },
+  {
+   "id": "ui.scenario.goal.population_50",
+   "tr": "Yaşayan insan",
+   "en": "People alive"
+  },
+  {
+   "id": "ui.scenario.fail.no_people",
+   "tr": "Topluluk yok oldu",
+   "en": "The community was lost"
+  },
+  {
+   "id": "ui.scenario.fail.time_limit",
+   "tr": "Süre doldu",
+   "en": "Time limit reached"
+  },
+  {
+   "id": "ui.world_share_code",
+   "tr": "Dünya paylaşım kodu",
+   "en": "World share code"
+  },
+  {
+   "id": "ui.world_share_import",
+   "tr": "Kodu yükle",
+   "en": "Load code"
+  },
+  {
+   "id": "ui.world_share_invalid",
+   "tr": "Paylaşım kodu geçersiz veya bu sürümle uyumsuz.",
+   "en": "The share code is invalid or incompatible with this version."
+  },
+  {
+   "id": "ui.world_share_imported",
+   "tr": "Tohum ve dünya ayarları yüklendi.",
+   "en": "Seed and world settings loaded."
+  },
+  {
+   "id": "ui.world_share_copy",
+   "tr": "Tohum kodunu kopyala",
+   "en": "Copy seed code"
+  },
+  {
+   "id": "ui.world_share_copied",
+   "tr": "Dünya kodu panoya kopyalandı.",
+   "en": "World code copied to clipboard."
+  },
+  {
+   "id": "ui.world_share_unavailable",
+   "tr": "Bu kayıt için üretim ayarları bulunmuyor.",
+   "en": "Generation settings are unavailable for this save."
+  },
+  {
+   "id": "ui.world_export_chronicle",
+   "tr": "Kroniği dışa aktar",
+   "en": "Export chronicle"
+  },
+  {
+   "id": "ui.world_export_summary",
+   "tr": "Dünya özetini indir",
+   "en": "Download world summary"
+  },
+  {
+   "id": "ui.world_export_started",
+   "tr": "İndirme başlatıldı.",
+   "en": "Download started."
+  },
+  {
+   "id": "ui.world_export_saved_fmt",
+   "tr": "Dosya kaydedildi: {0}",
+   "en": "File saved: {0}"
+  },
+  {
+   "id": "ui.world_export_failed_fmt",
+   "tr": "Dışa aktarma başarısız: {0}",
+   "en": "Export failed: {0}"
+  },
+  {
+   "id": "ui.world_summary_fmt",
+   "tr": "Dünya özeti\n{0}",
+   "en": "World summary\n{0}"
+  },
+  {
+   "id": "ui.world_seed_fmt",
+   "tr": "Tohum: {0}",
+   "en": "Seed: {0}"
+  },
+  {
+   "id": "ui.size.tiny",
+   "tr": "Çok Küçük",
+   "en": "Tiny"
+  },
+  {
+   "id": "ui.size.small",
+   "tr": "Küçük",
+   "en": "Small"
+  },
+  {
+   "id": "ui.size.medium",
+   "tr": "Orta",
+   "en": "Medium"
+  },
+  {
+   "id": "ui.size.large",
+   "tr": "Büyük",
+   "en": "Large"
+  },
+  {
+   "id": "ui.size.huge",
+   "tr": "Çok Büyük",
+   "en": "Huge"
+  },
+  {
+   "id": "ui.size.giant",
+   "tr": "Devasa",
+   "en": "Giant"
+  },
+  {
+   "id": "ui.size.titanic",
+   "tr": "Titanik",
+   "en": "Titanic"
+  },
+  {
+   "id": "ui.save",
+   "tr": "Kaydet",
+   "en": "Save"
+  },
+  {
+   "id": "ui.load",
+   "tr": "Yükle",
+   "en": "Load"
+  },
+  {
+   "id": "ui.delete",
+   "tr": "Sil",
+   "en": "Delete"
+  },
+  {
+   "id": "ui.save_load",
+   "tr": "Kayıtlar",
+   "en": "Saves"
+  },
+  {
+   "id": "ui.slot_fmt",
+   "tr": "Slot {0}",
+   "en": "Slot {0}"
+  },
+  {
+   "id": "ui.autosave_fmt",
+   "tr": "Otomatik {0}",
+   "en": "Autosave {0}"
+  },
+  {
+   "id": "ui.empty_slot",
+   "tr": "Boş",
+   "en": "Empty"
+  },
+  {
+   "id": "ui.slot_info_fmt",
+   "tr": "{0} · Yıl {1} · {2}×{3}",
+   "en": "{0} · Year {1} · {2}×{3}"
+  },
+  {
+   "id": "ui.saving",
+   "tr": "Dünya kaydediliyor…",
+   "en": "Saving world…"
+  },
+  {
+   "id": "ui.loading",
+   "tr": "Dünya yükleniyor…",
+   "en": "Loading world…"
+  },
+  {
+   "id": "ui.saved",
+   "tr": "Dünya kaydedildi",
+   "en": "World saved"
+  },
+  {
+   "id": "ui.loaded",
+   "tr": "Dünya yüklendi",
+   "en": "World loaded"
+  },
+  {
+   "id": "ui.save_failed",
+   "tr": "Kayıt başarısız: {0}",
+   "en": "Save failed: {0}"
+  },
+  {
+   "id": "ui.load_failed",
+   "tr": "Yükleme başarısız: {0}",
+   "en": "Load failed: {0}"
+  },
+  {
+   "id": "ui.confirm_delete",
+   "tr": "Silmek için tekrar bas",
+   "en": "Press again to delete"
+  },
+  {
+   "id": "ui.load_warnings",
+   "tr": "Kayıttaki bazı içerikler bulunamadı:",
+   "en": "Some saved content was not found:"
+  },
+  {
+   "id": "ui.era_fmt",
+   "tr": "{0} · {1} yıl",
+   "en": "{0} · {1} yrs"
+  },
+  {
+   "id": "ui.era_frozen_fmt",
+   "tr": "{0} · sabit",
+   "en": "{0} · frozen"
+  },
+  {
+   "id": "ui.era_changed_fmt",
+   "tr": "Yeni çağ: {0}",
+   "en": "A new era begins: {0}"
+  },
+  {
+   "id": "ui.famine_cause_drought",
+   "tr": "kuraklık",
+   "en": "drought"
+  },
+  {
+   "id": "ui.famine_cause_cold",
+   "tr": "soğuk hava",
+   "en": "cold weather"
+  },
+  {
+   "id": "ui.famine_cause_both",
+   "tr": "kuraklık ve soğuk hava",
+   "en": "drought and cold weather"
+  },
+  {
+   "id": "ui.migration_cause_famine",
+   "tr": "kıtlık nedeniyle",
+   "en": "because of famine"
+  },
+  {
+   "id": "ui.migration_cause_disaster",
+   "tr": "afet sonrasında",
+   "en": "after a disaster"
+  },
+  {
+   "id": "history.kingdom_founded",
+   "tr": "{A} krallığı kuruldu",
+   "en": "The kingdom of {A} was founded"
+  },
+  {
+   "id": "history.kingdom_fell",
+   "tr": "{A} krallığı yıkıldı",
+   "en": "The kingdom of {A} fell"
+  },
+  {
+   "id": "history.new_king",
+   "tr": "{A} tahtına {B} çıktı",
+   "en": "{B} took the throne of {A}"
+  },
+  {
+   "id": "history.war_declared",
+   "tr": "{A}, {B} krallığına savaş açtı",
+   "en": "{A} declared war on {B}"
+  },
+  {
+   "id": "history.peace",
+   "tr": "{A} savaşı sona erdi",
+   "en": "The war {A} ended"
+  },
+  {
+   "id": "history.city_founded",
+   "tr": "{A} şehri kuruldu",
+   "en": "The city of {A} was founded"
+  },
+  {
+   "id": "history.city_ruined",
+   "tr": "{A} şehri harabeye döndü",
+   "en": "The city of {A} fell into ruin"
+  },
+  {
+   "id": "history.city_captured",
+   "tr": "{C}, {A} şehrini {B} krallığından aldı",
+   "en": "{C} took {A} from {B}"
+  },
+  {
+   "id": "history.rebellion",
+   "tr": "{A} şehri {B} krallığına isyan etti",
+   "en": "{A} rebelled against {B}"
+  },
+  {
+   "id": "history.alliance_formed",
+   "tr": "{A} ittifakı kuruldu",
+   "en": "The alliance {A} was formed"
+  },
+  {
+   "id": "history.culture_founded",
+   "tr": "{A} kültürü doğdu",
+   "en": "The {A} culture was born"
+  },
+  {
+   "id": "history.language_founded",
+   "tr": "{A} dili doğdu",
+   "en": "The {A} language was born"
+  },
+  {
+   "id": "history.religion_founded",
+   "tr": "{A} dini doğdu",
+   "en": "The {A} faith was born"
+  },
+  {
+   "id": "history.clan_founded",
+   "tr": "{A} klanı kuruldu",
+   "en": "The {A} clan was founded"
+  },
+  {
+   "id": "history.meta_died",
+   "tr": "Bir topluluk yok oldu",
+   "en": "A community vanished"
+  },
+  {
+   "id": "history.plot_succeeded",
+   "tr": "{A} entrikası başarıya ulaştı",
+   "en": "The plot {A} succeeded"
+  },
+  {
+   "id": "history.plot_failed",
+   "tr": "{A} entrikası çöktü",
+   "en": "The plot {A} failed"
+  },
+  {
+   "id": "history.disaster",
+   "tr": "Büyük bir afet yaşandı",
+   "en": "A great disaster struck"
+  },
+  {
+   "id": "history.book_written",
+   "tr": "{B} bir kitap yazdı",
+   "en": "{B} wrote a book"
+  },
+  {
+   "id": "history.item_forged",
+   "tr": "{B} efsanevi bir eşya dövdü: {A}",
+   "en": "{B} forged a storied item: {A}"
+  },
+  {
+   "id": "history.species_endangered",
+   "tr": "{A} nesli tehlike altında",
+   "en": "{A} is endangered"
+  },
+  {
+   "id": "history.species_extinct",
+   "tr": "{A} türünün nesli tükendi",
+   "en": "The species {A} went extinct"
+  },
+  {
+   "id": "history.vassalage",
+   "tr": "{A}, {B} hükümdarına vasal oldu",
+   "en": "{A} became a vassal of {B}"
+  },
+  {
+   "id": "history.tribute_paid",
+   "tr": "{A}, {B} hükümdarına {N} altın yıllık haraç ödedi",
+   "en": "{A} paid {N} gold in annual tribute to {B}"
+  },
+  {
+   "id": "history.city_pillaged",
+   "tr": "{A} şehri {B} tarafından yağmalandı: {C} altın ve {N} erzak alındı",
+   "en": "{A} was pillaged by {B}: {C} gold and {N} rations taken"
+  },
+  {
+   "id": "ui.history_cause_fmt",
+   "tr": "Nedeni: {0}",
+   "en": "Cause: {0}"
+  },
+  {
+   "id": "ui.allied",
+   "tr": "Müttefik",
+   "en": "Allied"
+  },
+  {
+   "id": "ui.ally",
+   "tr": "İttifak kur",
+   "en": "Form alliance"
+  },
+  {
+   "id": "ui.apply",
+   "tr": "Uygula",
+   "en": "Apply"
+  },
+  {
+   "id": "ui.at_war",
+   "tr": "Savaşta",
+   "en": "At war"
+  },
+  {
+   "id": "ui.bless",
+   "tr": "Kutsa",
+   "en": "Bless"
+  },
+  {
+   "id": "ui.brain_note",
+   "tr": "Nöron değişiklikleri tüm alt türü etkiler.",
+   "en": "Neuron changes affect the whole subspecies."
+  },
+  {
+   "id": "ui.capital",
+   "tr": "Başkent",
+   "en": "Capital"
+  },
+  {
+   "id": "ui.children",
+   "tr": "Çocuklar",
+   "en": "Children"
+  },
+  {
+   "id": "ui.city",
+   "tr": "Şehir",
+   "en": "City"
+  },
+  {
+   "id": "ui.clan",
+   "tr": "Klan",
+   "en": "Clan"
+  },
+  {
+   "id": "ui.close_x",
+   "tr": "×",
+   "en": "×"
+  },
+  {
+   "id": "ui.culture",
+   "tr": "Kültür",
+   "en": "Culture"
+  },
+  {
+   "id": "ui.curse",
+   "tr": "Lanetle",
+   "en": "Curse"
+  },
+  {
+   "id": "ui.declare_war",
+   "tr": "Savaş ilan et",
+   "en": "Declare war"
+  },
+  {
+   "id": "ui.declare_war_breach",
+   "tr": "Saldırmazlığı boz ve savaş ilan et",
+   "en": "Break non-aggression pact and declare war"
+  },
+  {
+   "id": "ui.edge_pan",
+   "tr": "Kenar kaydırma",
+   "en": "Edge scrolling"
+  },
+  {
+   "id": "ui.edit_genes",
+   "tr": "Genleri düzenle",
+   "en": "Edit genes"
+  },
+  {
+   "id": "ui.edit_item",
+   "tr": "Eşya oluştur",
+   "en": "Create item"
+  },
+  {
+   "id": "ui.edit_next_tick",
+   "tr": "Değişiklikler komutla uygulanır.",
+   "en": "Changes are applied through commands."
+  },
+  {
+   "id": "ui.edit_traits",
+   "tr": "Özellikleri düzenle",
+   "en": "Edit traits"
+  },
+  {
+   "id": "ui.edited_badge",
+   "tr": "İlahi müdahale",
+   "en": "Divine intervention"
+  },
+  {
+   "id": "ui.energy",
+   "tr": "Enerji",
+   "en": "Energy"
+  },
+  {
+   "id": "ui.father",
+   "tr": "Baba",
+   "en": "Father"
+  },
+  {
+   "id": "ui.favorite",
+   "tr": "Favori",
+   "en": "Favorite"
+  },
+  {
+   "id": "ui.follow",
+   "tr": "Takip et",
+   "en": "Follow"
+  },
+  {
+   "id": "ui.go_to",
+   "tr": "Konuma git",
+   "en": "Go to"
+  },
+  {
+   "id": "ui.heir",
+   "tr": "Veliaht",
+   "en": "Heir"
+  },
+  {
+   "id": "ui.history",
+   "tr": "Tarihçe",
+   "en": "History"
+  },
+  {
+   "id": "ui.history_filter",
+   "tr": "Olay filtresi",
+   "en": "Event filter"
+  },
+  {
+   "id": "ui.history_filter_all",
+   "tr": "Tüm olaylar",
+   "en": "All events"
+  },
+  {
+   "id": "ui.history_filter_important_fmt",
+   "tr": "Önemli olaylar · {0}+",
+   "en": "Important events · {0}+"
+  },
+  {
+   "id": "ui.history_notifications",
+   "tr": "Önemli olay bildirimleri",
+   "en": "Important event notifications"
+  },
+  {
+   "id": "ui.history_importance_threshold",
+   "tr": "En düşük önem",
+   "en": "Minimum importance"
+  },
+  {
+   "id": "ui.history_documentary_camera",
+   "tr": "Belgesel kamerası · önemli olaylara odaklan",
+   "en": "Documentary camera · focus important events"
+  },
+  {
+   "id": "ui.history_older",
+   "tr": "Daha eski olayları yükle",
+   "en": "Load older events"
+  },
+  {
+   "id": "ui.history_people",
+   "tr": "Önemli kişiler",
+   "en": "Notable people"
+  },
+  {
+   "id": "ui.history_kingdom_tree",
+   "tr": "Krallık soyağacı",
+   "en": "Kingdom lineage"
+  },
+  {
+   "id": "ui.history_person_search",
+   "tr": "Kişi ara",
+   "en": "Search people"
+  },
+  {
+   "id": "ui.history_biography",
+   "tr": "Yaşam öyküsü",
+   "en": "Biography"
+  },
+  {
+   "id": "ui.history_no_people",
+   "tr": "Eşleşen kişi bulunamadı",
+   "en": "No matching people"
+  },
+  {
+   "id": "ui.history_no_kingdoms",
+   "tr": "Krallık bulunamadı",
+   "en": "No kingdoms found"
+  },
+  {
+   "id": "ui.history_person_record_fmt",
+   "tr": "{0} · {1} · {2}",
+   "en": "{0} · {1} · {2}"
+  },
+  {
+   "id": "ui.history_kingdom_record_fmt",
+   "tr": "{0} · Kuruluş: {1} · Son: {2}",
+   "en": "{0} · Founded: {1} · Ended: {2}"
+  },
+  {
+   "id": "ui.history_birth_fmt",
+   "tr": "Doğum: yıl {0}",
+   "en": "Born: year {0}"
+  },
+  {
+   "id": "ui.history_bio_event_fmt",
+   "tr": "{0} · {1}",
+   "en": "{0} · {1}"
+  },
+  {
+   "id": "ui.history_bio_birth",
+   "tr": "Doğdu",
+   "en": "Born"
+  },
+  {
+   "id": "ui.history_bio_partnership",
+   "tr": "Eş bağı kurdu",
+   "en": "Partnered"
+  },
+  {
+   "id": "ui.history_bio_child",
+   "tr": "Çocuğu oldu",
+   "en": "Had a child"
+  },
+  {
+   "id": "ui.history_bio_battle",
+   "tr": "Savaşa katıldı",
+   "en": "Entered battle"
+  },
+  {
+   "id": "ui.history_bio_office",
+   "tr": "Makam aldı",
+   "en": "Took office"
+  },
+  {
+   "id": "ui.history_bio_death",
+   "tr": "Öldü",
+   "en": "Died"
+  },
+  {
+   "id": "ui.history_bio_milestone",
+   "tr": "Kahramanlık eşiğine ulaştı",
+   "en": "Reached a career milestone"
+  },
+  {
+   "id": "ui.history_bio_legendary_item",
+   "tr": "Efsanevi eşya kuşandı",
+   "en": "Equipped a legendary item"
+  },
+  {
+   "id": "ui.hp",
+   "tr": "Can",
+   "en": "Health"
+  },
+  {
+   "id": "ui.inspect",
+   "tr": "İncele",
+   "en": "Inspect"
+  },
+  {
+   "id": "ui.item_type",
+   "tr": "Eşya türü",
+   "en": "Item type"
+  },
+  {
+   "id": "ui.kill",
+   "tr": "Öldür",
+   "en": "Kill"
+  },
+  {
+   "id": "ui.king",
+   "tr": "Hükümdar",
+   "en": "Ruler"
+  },
+  {
+   "id": "ui.kingdom",
+   "tr": "Krallık",
+   "en": "Kingdom"
+  },
+  {
+   "id": "ui.language",
+   "tr": "Dil",
+   "en": "Language"
+  },
+  {
+   "id": "ui.laws",
+   "tr": "Dünya kanunları",
+   "en": "World laws"
+  },
+  {
+   "id": "ui.leader",
+   "tr": "Lider",
+   "en": "Leader"
+  },
+  {
+   "id": "ui.line",
+   "tr": "Soy",
+   "en": "Lineage"
+  },
+  {
+   "id": "ui.loyalty",
+   "tr": "Sadakat",
+   "en": "Loyalty"
+  },
+  {
+   "id": "ui.mana",
+   "tr": "Mana",
+   "en": "Mana"
+  },
+  {
+   "id": "ui.mate",
+   "tr": "Eş",
+   "en": "Mate"
+  },
+  {
+   "id": "ui.material",
+   "tr": "Malzeme",
+   "en": "Material"
+  },
+  {
+   "id": "ui.meta_control",
+   "tr": "Krallığı yönet",
+   "en": "Control kingdom"
+  },
+  {
+   "id": "ui.mood_events",
+   "tr": "Mutluluk olayları",
+   "en": "Mood events"
+  },
+  {
+   "id": "ui.mother",
+   "tr": "Anne",
+   "en": "Mother"
+  },
+  {
+   "id": "ui.name",
+   "tr": "İsim",
+   "en": "Name"
+  },
+  {
+   "id": "ui.next",
+   "tr": "Sonraki",
+   "en": "Next"
+  },
+  {
+   "id": "ui.prev",
+   "tr": "Önceki",
+   "en": "Previous"
+  },
+  {
+   "id": "ui.off",
+   "tr": "Kapalı",
+   "en": "Off"
+  },
+  {
+   "id": "ui.on",
+   "tr": "Açık",
+   "en": "On"
+  },
+  {
+   "id": "ui.peace",
+   "tr": "Barış yap",
+   "en": "Make peace"
+  },
+  {
+   "id": "ui.pin",
+   "tr": "Sabitle",
+   "en": "Pin"
+  },
+  {
+   "id": "ui.possess",
+   "tr": "Kontrol et",
+   "en": "Possess"
+  },
+  {
+   "id": "ui.possession_died",
+   "tr": "Kontrol ettiğin birim öldü.",
+   "en": "The unit you controlled has died."
+  },
+  {
+   "id": "ui.possession_help",
+   "tr": "WASD: yürü · Tık: saldır · 1: hazır büyü · Boşluk: atıl · Esc: bırak",
+   "en": "WASD: move · Click: attack · 1: ready spell · Space: dash · Esc: release"
+  },
+  {
+   "id": "ui.quality",
+   "tr": "Kalite",
+   "en": "Quality"
+  },
+  {
+   "id": "ui.release",
+   "tr": "Kontrolü bırak",
+   "en": "Release control"
+  },
+  {
+   "id": "ui.religion",
+   "tr": "Din",
+   "en": "Religion"
+  },
+  {
+   "id": "ui.rename",
+   "tr": "Adlandır",
+   "en": "Rename"
+  },
+  {
+   "id": "ui.saturation",
+   "tr": "Tokluk",
+   "en": "Saturation"
+  },
+  {
+   "id": "ui.screen_shake",
+   "tr": "Ekran sarsıntısı",
+   "en": "Screen shake"
+  },
+  {
+   "id": "ui.search",
+   "tr": "Ara",
+   "en": "Search"
+  },
+  {
+   "id": "ui.set_capital",
+   "tr": "Başkent yap",
+   "en": "Set capital"
+  },
+  {
+   "id": "ui.settings",
+   "tr": "Ayarlar",
+   "en": "Settings"
+  },
+  {
+   "id": "ui.stamina",
+   "tr": "Dayanıklılık",
+   "en": "Stamina"
+  },
+  {
+   "id": "ui.statistics",
+   "tr": "Dünya istatistikleri",
+   "en": "World statistics"
+  },
+  {
+   "id": "ui.subspecies",
+   "tr": "Alt tür",
+   "en": "Subspecies"
+  },
+  {
+   "id": "ui.subspecies_traits",
+   "tr": "Alt tür özellikleri",
+   "en": "Subspecies traits"
+  },
+  {
+   "id": "ui.subspecies_warning",
+   "tr": "Değişiklik tüm alt tür üyelerini etkiler.",
+   "en": "This change affects every member of the subspecies."
+  },
+  {
+   "id": "ui.accessibility",
+   "tr": "Erişilebilirlik",
+   "en": "Accessibility"
+  },
+  {
+   "id": "ui.colorblind_palette",
+   "tr": "Renk körlüğü paleti",
+   "en": "Color-blind palette"
+  },
+  {
+   "id": "ui.high_contrast",
+   "tr": "Yüksek kontrast",
+   "en": "High contrast"
+  },
+  {
+   "id": "ui.take_control",
+   "tr": "Kontrolü al",
+   "en": "Take control"
+  },
+  {
+   "id": "ui.traits",
+   "tr": "Özellikler",
+   "en": "Traits"
+  },
+  {
+   "id": "ui.ui_scale",
+   "tr": "Arayüz ölçeği",
+   "en": "UI scale"
+  },
+  {
+   "id": "ui.undiscovered",
+   "tr": "Henüz keşfedilmedi",
+   "en": "Not yet discovered"
+  },
+  {
+   "id": "ui.unit_gone",
+   "tr": "Birim artık yaşamıyor.",
+   "en": "The unit is no longer alive."
+  },
+  {
+   "id": "ui.founded_fmt",
+   "tr": "Kuruluş: yıl {0}",
+   "en": "Founded: year {0}"
+  },
+  {
+   "id": "ui.died_fmt",
+   "tr": "Ölüm: yıl {0}",
+   "en": "Died: year {0}"
+  },
+  {
+   "id": "ui.members_fmt",
+   "tr": "Üyeler: {0}",
+   "en": "Members: {0}"
+  },
+  {
+   "id": "ui.kingdom_stats_fmt",
+   "tr": "Şehir: {0} · Asker: {1} · Güç: {2} · Hazine: {3}",
+   "en": "Cities: {0} · Soldiers: {1} · Power: {2} · Treasury: {3}"
+  },
+  {
+   "id": "ui.city_stats_fmt",
+   "tr": "Nüfus: {0} · Konut: {1} · Salon: {2} · Sadakat: {3} · Altın: {4}",
+   "en": "Population: {0} · Housing: {1} · Hall: {2} · Loyalty: {3} · Gold: {4}"
+  },
+  {
+   "id": "ui.war_fmt",
+   "tr": "{0} / {1}",
+   "en": "{0} / {1}"
+  },
+  {
+   "id": "ui.war_time_fmt",
+   "tr": "Süre: {0} yıl · Yaş: {1} yıl",
+   "en": "Duration: {0} years · Age: {1} years"
+  },
+  {
+   "id": "ui.war_losses_fmt",
+   "tr": "Kayıplar: {0} / {1} · Fethedilen şehir: {2}",
+   "en": "Losses: {0} / {1} · Captured cities: {2}"
+  },
+  {
+   "id": "ui.page_fmt",
+   "tr": "Sayfa {0}",
+   "en": "Page {0}"
+  },
+  {
+   "id": "ui.pop_fmt",
+   "tr": "Nüfus: {0}",
+   "en": "Population: {0}"
+  },
+  {
+   "id": "ui.population_fmt",
+   "tr": "Dünya nüfusu: {0}",
+   "en": "World population: {0}"
+  },
+  {
+   "id": "ui.year_fmt",
+   "tr": "Yıl {0}",
+   "en": "Year {0}"
+  },
+  {
+   "id": "ui.unit_dead_fmt",
+   "tr": "Öldü · yıl {0}",
+   "en": "Died · year {0}"
+  },
+  {
+   "id": "ui.unit_species_fmt",
+   "tr": "Tür: {0} · Alt tür: {1}",
+   "en": "Species: {0} · Subspecies: {1}"
+  },
+  {
+   "id": "ui.unit_age_fmt",
+   "tr": "Yaş: {0} ({1}) · Seviye: {2} · XP: {3}",
+   "en": "Age: {0} ({1}) · Level: {2} · XP: {3}"
+  },
+  {
+   "id": "ui.happiness_fmt",
+   "tr": "Mutluluk: {0}",
+   "en": "Happiness: {0}"
+  },
+  {
+   "id": "ui.job_fmt",
+   "tr": "Meslek: {0}",
+   "en": "Job: {0}"
+  },
+  {
+   "id": "ui.kills_fmt",
+   "tr": "Öldürme: {0}",
+   "en": "Kills: {0}"
+  },
+  {
+   "id": "ui.disease_fmt",
+   "tr": "Hastalık: {0}",
+   "en": "Disease: {0}"
+  },
+  {
+   "id": "ui.former_fmt",
+   "tr": "Eski tür: {0}",
+   "en": "Former species: {0}"
+  },
+  {
+   "id": "ui.item_kills_fmt",
+   "tr": "Öldürme: {0}",
+   "en": "Kills: {0}"
+  },
+  {
+   "id": "ui.tab_general",
+   "tr": "Genel",
+   "en": "General"
+  },
+  {
+   "id": "ui.tab_stats",
+   "tr": "İstatistik",
+   "en": "Stats"
+  },
+  {
+   "id": "ui.tab_traits",
+   "tr": "Özellikler",
+   "en": "Traits"
+  },
+  {
+   "id": "ui.tab_equipment",
+   "tr": "Ekipman",
+   "en": "Equipment"
+  },
+  {
+   "id": "ui.tab_family",
+   "tr": "Aile",
+   "en": "Family"
+  },
+  {
+   "id": "ui.tab_log",
+   "tr": "Günlük",
+   "en": "Log"
+  },
+  {
+   "id": "ui.tab_brain",
+   "tr": "Beyin",
+   "en": "Brain"
+  },
+  {
+   "id": "ui.tab_members",
+   "tr": "Üyeler",
+   "en": "Members"
+  },
+  {
+   "id": "ui.tab_cities",
+   "tr": "Şehirler",
+   "en": "Cities"
+  },
+  {
+   "id": "ui.tab_relations",
+   "tr": "İlişkiler",
+   "en": "Relations"
+  },
+  {
+   "id": "ui.tab_wars",
+   "tr": "Savaşlar",
+   "en": "Wars"
+  },
+  {
+   "id": "ui.tab_history",
+   "tr": "Tarih",
+   "en": "History"
+  },
+  {
+   "id": "ui.tab_books",
+   "tr": "Kitaplar",
+   "en": "Books"
+  },
+  {
+   "id": "ui.tab_inventions",
+   "tr": "Buluşlar",
+   "en": "Inventions"
+  },
+  {
+   "id": "ui.age.baby",
+   "tr": "Bebek",
+   "en": "Baby"
+  },
+  {
+   "id": "ui.age.child",
+   "tr": "Çocuk",
+   "en": "Child"
+  },
+  {
+   "id": "ui.age.adult",
+   "tr": "Yetişkin",
+   "en": "Adult"
+  },
+  {
+   "id": "ui.age.elder",
+   "tr": "Yaşlı",
+   "en": "Elder"
+  },
+  {
+   "id": "ui.slot.weapon",
+   "tr": "Silah",
+   "en": "Weapon"
+  },
+  {
+   "id": "ui.slot.helmet",
+   "tr": "Miğfer",
+   "en": "Helmet"
+  },
+  {
+   "id": "ui.slot.armor",
+   "tr": "Zırh",
+   "en": "Armor"
+  },
+  {
+   "id": "ui.slot.shield",
+   "tr": "Kalkan",
+   "en": "Shield"
+  },
+  {
+   "id": "ui.slot.boots",
+   "tr": "Çizme",
+   "en": "Boots"
+  },
+  {
+   "id": "ui.slot.ring",
+   "tr": "Yüzük",
+   "en": "Ring"
+  },
+  {
+   "id": "ui.slot.amulet",
+   "tr": "Tılsım",
+   "en": "Amulet"
+  },
+  {
+   "id": "ui.war_result.ongoing",
+   "tr": "Sürüyor",
+   "en": "Ongoing"
+  },
+  {
+   "id": "ui.war_result.peace",
+   "tr": "Barış",
+   "en": "Peace"
+  },
+  {
+   "id": "ui.war_result.attackerwon",
+   "tr": "Saldıran kazandı",
+   "en": "Attacker won"
+  },
+  {
+   "id": "ui.war_result.defenderwon",
+   "tr": "Savunan kazandı",
+   "en": "Defender won"
+  },
+  {
+   "id": "ui.war_result.vanished",
+   "tr": "Yok oldu",
+   "en": "Vanished"
+  },
+  {
+   "id": "ui.meta.kingdom",
+   "tr": "Krallık",
+   "en": "Kingdom"
+  },
+  {
+   "id": "ui.meta.city",
+   "tr": "Şehir",
+   "en": "City"
+  },
+  {
+   "id": "ui.meta.alliance",
+   "tr": "İttifak",
+   "en": "Alliance"
+  },
+  {
+   "id": "ui.meta.army",
+   "tr": "Ordu",
+   "en": "Army"
+  },
+  {
+   "id": "ui.meta.clan",
+   "tr": "Klan",
+   "en": "Clan"
+  },
+  {
+   "id": "ui.meta.family",
+   "tr": "Aile",
+   "en": "Family"
+  },
+  {
+   "id": "ui.meta.culture",
+   "tr": "Kültür",
+   "en": "Culture"
+  },
+  {
+   "id": "ui.meta.language",
+   "tr": "Dil",
+   "en": "Language"
+  },
+  {
+   "id": "ui.meta.religion",
+   "tr": "Din",
+   "en": "Religion"
+  },
+  {
+   "id": "ui.meta.subspecies",
+   "tr": "Alt tür",
+   "en": "Subspecies"
+  },
+  {
+   "id": "ui.meta.plot",
+   "tr": "Entrika",
+   "en": "Plot"
+  },
+  {
+   "id": "ui.meta.war",
+   "tr": "Savaş",
+   "en": "War"
+  },
+  {
+   "id": "ui.law_group.civ",
+   "tr": "Medeniyet",
+   "en": "Civilization"
+  },
+  {
+   "id": "ui.law_group.life",
+   "tr": "Yaşam",
+   "en": "Life"
+  },
+  {
+   "id": "ui.law_group.nature",
+   "tr": "Doğa",
+   "en": "Nature"
+  },
+  {
+   "id": "ui.law_group.genetics",
+   "tr": "Genetik",
+   "en": "Genetics"
+  },
+  {
+   "id": "ui.law_group.fun",
+   "tr": "Eğlence",
+   "en": "Fun"
+  },
+  {
+   "id": "ui.law_group.forbidden",
+   "tr": "Yasak",
+   "en": "Forbidden"
+  },
+  {
+   "id": "stat.hp",
+   "tr": "Can",
+   "en": "Health"
+  },
+  {
+   "id": "stat.dmg",
+   "tr": "Hasar",
+   "en": "Damage"
+  },
+  {
+   "id": "stat.armor",
+   "tr": "Zırh",
+   "en": "Armor"
+  },
+  {
+   "id": "stat.speed",
+   "tr": "Hız",
+   "en": "Speed"
+  },
+  {
+   "id": "stat.atkspd",
+   "tr": "Saldırı hızı",
+   "en": "Attack speed"
+  },
+  {
+   "id": "stat.crit",
+   "tr": "Kritik",
+   "en": "Critical chance"
+  },
+  {
+   "id": "stat.range",
+   "tr": "Menzil",
+   "en": "Range"
+  },
+  {
+   "id": "stat.dodge",
+   "tr": "Kaçınma",
+   "en": "Dodge"
+  },
+  {
+   "id": "stat.lifespan",
+   "tr": "Ömür",
+   "en": "Lifespan"
+  },
+  {
+   "id": "stat.fertility",
+   "tr": "Doğurganlık",
+   "en": "Fertility"
+  },
+  {
+   "id": "stat.intel",
+   "tr": "Zeka",
+   "en": "Intelligence"
+  },
+  {
+   "id": "stat.diplo",
+   "tr": "Diplomasi",
+   "en": "Diplomacy"
+  },
+  {
+   "id": "stat.warfare",
+   "tr": "Savaşçılık",
+   "en": "Warfare"
+  },
+  {
+   "id": "stat.steward",
+   "tr": "Yönetim",
+   "en": "Stewardship"
+  },
+  {
+   "id": "stat.luck",
+   "tr": "Şans",
+   "en": "Luck"
+  },
+  {
+   "id": "stat.mana",
+   "tr": "Mana",
+   "en": "Mana"
+  },
+  {
+   "id": "stat.manaregen",
+   "tr": "Mana yenileme",
+   "en": "Mana regeneration"
+  },
+  {
+   "id": "stat.regen",
+   "tr": "Yenilenme",
+   "en": "Regeneration"
+  },
+  {
+   "id": "stat.stamina",
+   "tr": "Dayanıklılık",
+   "en": "Stamina"
+  },
+  {
+   "id": "stat.hungerrate",
+   "tr": "Acıkma",
+   "en": "Hunger rate"
+  },
+  {
+   "id": "stat.sleepneed",
+   "tr": "Uyku ihtiyacı",
+   "en": "Sleep need"
+  },
+  {
+   "id": "stat.sight",
+   "tr": "Görüş",
+   "en": "Sight"
+  },
+  {
+   "id": "stat.size",
+   "tr": "Boyut",
+   "en": "Size"
+  },
+  {
+   "id": "stat.knockbackresist",
+   "tr": "İtme direnci",
+   "en": "Knockback resistance"
+  },
+  {
+   "id": "stat.diseaseresist",
+   "tr": "Hastalık direnci",
+   "en": "Disease resistance"
+  },
+  {
+   "id": "stat.spellpower",
+   "tr": "Büyü gücü",
+   "en": "Spell power"
+  },
+  {
+   "id": "stat.xp",
+   "tr": "Deneyim",
+   "en": "Experience"
+  },
+  {
+   "id": "stat.happiness",
+   "tr": "Mutluluk",
+   "en": "Happiness"
+  },
+  {
+   "id": "stat.fleethreshold",
+   "tr": "Kaçış eşiği",
+   "en": "Flee threshold"
+  },
+  {
+   "id": "stat.matechance",
+   "tr": "Çiftleşme şansı",
+   "en": "Mating chance"
+  },
+  {
+   "id": "stat.lifesteal",
+   "tr": "Can çalma",
+   "en": "Life steal"
+  },
+  {
+   "id": "stat.block",
+   "tr": "Blok",
+   "en": "Block"
+  },
+  {
+   "id": "stat.stealth",
+   "tr": "Gizlilik",
+   "en": "Stealth"
+  },
+  {
+   "id": "stat.dmgtaken",
+   "tr": "Alınan hasar",
+   "en": "Damage taken"
+  },
+  {
+   "id": "stat.swimspeed",
+   "tr": "Yüzme hızı",
+   "en": "Swim speed"
+  },
+  {
+   "id": "ui.achievement_fmt",
+   "tr": "Başarım kazanıldı: {0}",
+   "en": "Achievement earned: {0}"
+  },
+  {
+   "id": "ui.achievements",
+   "tr": "Başarımlar",
+   "en": "Achievements"
+  },
+  {
+   "id": "ui.achievements_fmt",
+   "tr": "{0} / {1} başarım",
+   "en": "{0} / {1} achievements"
+  },
+  {
+   "id": "ui.achievement_export",
+   "tr": "Başarım listesini dışa aktar",
+   "en": "Export achievement list"
+  },
+  {
+   "id": "ui.settings_search",
+   "tr": "Ayarları ara",
+   "en": "Search settings"
+  },
+  {
+   "id": "ui.settings_reset",
+   "tr": "Varsayılanlara dön",
+   "en": "Restore defaults"
+  },
+  {
+   "id": "ui.settings_no_results",
+   "tr": "Bu aramayla eşleşen ayar yok.",
+   "en": "No settings match this search."
+  },
+  {
+   "id": "ui.settings_mobile_quick",
+   "tr": "Hızlı mobil ayarlar",
+   "en": "Quick mobile settings"
+  },
+  {
+   "id": "ui.settings_all",
+   "tr": "Tüm ayarlar",
+   "en": "All settings"
+  },
+  {
+   "id": "ui.settings_compact",
+   "tr": "Hızlı görünüme dön",
+   "en": "Back to quick settings"
+  },
+  {
+   "id": "ui.settings_reset_done",
+   "tr": "Ayarlar varsayılan değerlere döndürüldü.",
+   "en": "Settings restored to defaults."
+  },
+  {
+   "id": "ui.settings_general",
+   "tr": "Genel",
+   "en": "General"
+  },
+  {
+   "id": "ui.performance",
+   "tr": "Performans ve görüntü",
+   "en": "Performance and visuals"
+  },
+  {
+   "id": "ui.performance_preset",
+   "tr": "Performans ön ayarı",
+   "en": "Performance preset"
+  },
+  {
+   "id": "ui.performance.low",
+   "tr": "Düşük",
+   "en": "Low"
+  },
+  {
+   "id": "ui.performance.balanced",
+   "tr": "Dengeli",
+   "en": "Balanced"
+  },
+  {
+   "id": "ui.performance.high",
+   "tr": "Yüksek",
+   "en": "High"
+  },
+  {
+   "id": "ui.performance_note",
+   "tr": "Düşük: hava parçacıkları ve gölgeler kapalı. Yüksek: daha fazla görsel efekt ve 120 FPS sınırı.",
+   "en": "Low disables weather particles and shadows. High enables more visual effects and a 120 FPS cap."
+  },
+  {
+   "id": "ui.codex_no_achievements",
+   "tr": "Yasak Kodeks açık: bu dünyada keşif ve başarım kapalı.",
+   "en": "Forbidden Codex is on: discoveries and achievements are disabled in this world."
+  },
+  {
+   "id": "ui.biggest_kingdom_fmt",
+   "tr": "En büyük krallık: {0}",
+   "en": "Largest kingdom: {0}"
+  },
+  {
+   "id": "ui.oldest_kingdom_fmt",
+   "tr": "En eski krallık: {0}",
+   "en": "Oldest kingdom: {0}"
+  },
+  {
+   "id": "ui.oldest_unit_fmt",
+   "tr": "En yaşlı: {0} ({1} yaş)",
+   "en": "Oldest: {0} (age {1})"
+  },
+  {
+   "id": "ui.top_killer_fmt",
+   "tr": "En çok öldüren: {0} ({1})",
+   "en": "Most kills: {0} ({1})"
+  },
+  {
+   "id": "ui.kingdoms_fmt",
+   "tr": "Krallıklar: {0} yaşıyor, {1} yıkıldı",
+   "en": "Kingdoms: {0} alive, {1} fallen"
+  },
+  {
+   "id": "ui.wars_total_fmt",
+   "tr": "Toplam savaş: {0}",
+   "en": "Total wars: {0}"
+  },
+  {
+   "id": "ui.species_count_fmt",
+   "tr": "Tür sayısı: {0}",
+   "en": "Species: {0}"
+  },
+  {
+   "id": "ui.population_civilization_fmt",
+   "tr": "Medeniyet nüfusu: {0}",
+   "en": "Civilization population: {0}"
+  },
+  {
+   "id": "ui.population_wildlife_fmt",
+   "tr": "Yaban ve diğer canlılar: {0}",
+   "en": "Wildlife and other creatures: {0}"
+  },
+  {
+   "id": "ui.civilization_extinct_warning",
+   "tr": "Medeniyet sona erdi. Görünen nüfus yalnızca yabanıl ve diğer canlılardan oluşuyor.",
+   "en": "Civilization has ended. The remaining population is wildlife and other creatures."
+  },
+  {
+   "id": "ui.species",
+   "tr": "Türler",
+   "en": "Species"
+  },
+  {
+   "id": "ui.cities",
+   "tr": "Şehirler",
+   "en": "Cities"
+  },
+  {
+   "id": "ui.kingdoms",
+   "tr": "Krallıklar",
+   "en": "Kingdoms"
+  },
+  {
+   "id": "ui.continue",
+   "tr": "Devam Et",
+   "en": "Continue"
+  },
+  {
+   "id": "ui.play_now",
+   "tr": "Dünyayı İzle",
+   "en": "Watch the World"
+  },
+  {
+   "id": "ui.quit",
+   "tr": "Çıkış",
+   "en": "Quit"
+  },
+  {
+   "id": "ui.game_title",
+   "tr": "PixelGenesis",
+   "en": "PixelGenesis"
+  },
+  {
+   "id": "ui.discovery_fmt",
+   "tr": "Yeni keşif: {0}",
+   "en": "New discovery: {0}"
+  },
+  {
+   "id": "ui.followed_died",
+   "tr": "İzlenen birim öldü",
+   "en": "The followed unit died"
+  },
+  {
+   "id": "ui.era_clock",
+   "tr": "Çağ Saati",
+   "en": "Era Clock"
+  },
+  {
+   "id": "ui.era_change_now",
+   "tr": "Şimdi Geç",
+   "en": "Change Now"
+  },
+  {
+   "id": "ui.era_freeze",
+   "tr": "Sabitle",
+   "en": "Freeze"
+  },
+  {
+   "id": "ui.era_unfreeze",
+   "tr": "Serbest Bırak",
+   "en": "Unfreeze"
+  },
+  {
+   "id": "ui.era_list",
+   "tr": "Çağlar",
+   "en": "Eras"
+  },
+  {
+   "id": "ui.era_slots",
+   "tr": "Saat Dilimleri",
+   "en": "Clock Slots"
+  },
+  {
+   "id": "ui.graphs",
+   "tr": "Grafikler",
+   "en": "Graphs"
+  },
+  {
+   "id": "ui.years_fmt",
+   "tr": "{0} yıl",
+   "en": "{0} years"
+  },
+  {
+   "id": "ui.series.population",
+   "tr": "Nüfus",
+   "en": "Population"
+  },
+  {
+   "id": "ui.series.civ_population",
+   "tr": "Medeniyet nüfusu",
+   "en": "Civilization population"
+  },
+  {
+   "id": "ui.series.wildlife_population",
+   "tr": "Yabanıl nüfus",
+   "en": "Wildlife population"
+  },
+  {
+   "id": "ui.series.cities",
+   "tr": "Şehirler",
+   "en": "Cities"
+  },
+  {
+   "id": "ui.series.kingdoms",
+   "tr": "Krallıklar",
+   "en": "Kingdoms"
+  },
+  {
+   "id": "ui.series.wars",
+   "tr": "Savaşlar",
+   "en": "Wars"
+  },
+  {
+   "id": "ui.series.sick",
+   "tr": "Hastalar",
+   "en": "Sick"
+  },
+  {
+   "id": "ui.series.undead",
+   "tr": "Ölümsüzler",
+   "en": "Undead"
+  },
+  {
+   "id": "ui.overlays",
+   "tr": "Harita Katmanları",
+   "en": "Map Overlays"
+  },
+  {
+   "id": "ui.overlay_off",
+   "tr": "Katmanları Kapat",
+   "en": "Overlays Off"
+  },
+  {
+   "id": "ui.plates",
+   "tr": "İsim Plakaları",
+   "en": "Nameplates"
+  },
+  {
+   "id": "ui.overlay.kingdom",
+   "tr": "Krallık",
+   "en": "Kingdom"
+  },
+  {
+   "id": "ui.overlay.city",
+   "tr": "Şehir",
+   "en": "City"
+  },
+  {
+   "id": "ui.overlay.alliance",
+   "tr": "İttifak",
+   "en": "Alliance"
+  },
+  {
+   "id": "ui.overlay.culture",
+   "tr": "Kültür",
+   "en": "Culture"
+  },
+  {
+   "id": "ui.overlay.language",
+   "tr": "Dil",
+   "en": "Language"
+  },
+  {
+   "id": "ui.overlay.religion",
+   "tr": "Din",
+   "en": "Religion"
+  },
+  {
+   "id": "ui.overlay.subspecies",
+   "tr": "Alt Tür",
+   "en": "Subspecies"
+  },
+  {
+   "id": "ui.overlay.clan",
+   "tr": "Klan",
+   "en": "Clan"
+  },
+  {
+   "id": "ui.overlay.temperature",
+   "tr": "Sıcaklık",
+   "en": "Temperature"
+  },
+  {
+   "id": "ui.overlay.biome",
+   "tr": "Biyom",
+   "en": "Biome"
+  },
+  {
+   "id": "ui.overlay.population",
+   "tr": "Nüfus Yoğunluğu",
+   "en": "Population Density"
+  },
+  {
+   "id": "ui.overlay.disease",
+   "tr": "Hastalık",
+   "en": "Disease"
+  },
+  {
+   "id": "ui.overlay.moisture",
+   "tr": "Nem / Kuraklık",
+   "en": "Moisture / Drought"
+  },
+  {
+   "id": "ui.overlay.season",
+   "tr": "Mevsim",
+   "en": "Season"
+  },
+  {
+   "id": "ui.overlay.cropyield",
+   "tr": "Tahmini Tarım Verimi",
+   "en": "Estimated Crop Yield"
+  },
+  {
+   "id": "ui.overlay.legend_note",
+   "tr": "Renkler 8×8 iklim bölgelerini gösterir; tahminler mevcut koşullara göredir.",
+   "en": "Colors show 8×8 climate zones; yield is an estimate for current conditions."
+  },
+  {
+   "id": "ui.overlay.legend_moisture",
+   "tr": "Nem: kahverengi düşük → mavi yüksek; kırmızı kuraklık.",
+   "en": "Moisture: brown low → blue high; red marks drought."
+  },
+  {
+   "id": "ui.overlay.protection",
+   "tr": "Tür koruma",
+   "en": "Species protection"
+  },
+  {
+   "id": "ui.overlay.legend_protection",
+   "tr": "Renkli 8×8 bölgeler, içindeki seçili türü avlanmaya karşı korur.",
+   "en": "Colored 8×8 zones protect the selected species from hunting inside them."
+  },
+  {
+   "id": "ui.overlay.legend_cropyield",
+   "tr": "Tarım verimi: kırmızı düşük → yeşil yüksek.",
+   "en": "Crop yield: red low → green high."
+  },
+  {
+   "id": "ui.overlay.legend_season_fmt",
+   "tr": "Mevcut mevsim: {0}",
+   "en": "Current season: {0}"
+  },
+  {
+   "id": "ui.season.spring",
+   "tr": "İlkbahar",
+   "en": "Spring"
+  },
+  {
+   "id": "ui.season.summer",
+   "tr": "Yaz",
+   "en": "Summer"
+  },
+  {
+   "id": "ui.season.autumn",
+   "tr": "Sonbahar",
+   "en": "Autumn"
+  },
+  {
+   "id": "ui.season.winter",
+   "tr": "Kış",
+   "en": "Winter"
+  },
+  {
+   "id": "ui.notifications",
+   "tr": "Bildirimler",
+   "en": "Notifications"
+  },
+  {
+   "id": "ui.notify.war",
+   "tr": "Savaşlar",
+   "en": "Wars"
+  },
+  {
+   "id": "ui.notify.city",
+   "tr": "Şehirler",
+   "en": "Cities"
+  },
+  {
+   "id": "ui.notify.kingdom",
+   "tr": "Krallıklar",
+   "en": "Kingdoms"
+  },
+  {
+   "id": "ui.notify.king",
+   "tr": "Krallar",
+   "en": "Kings"
+  },
+  {
+   "id": "ui.notify.rebellion",
+   "tr": "İsyanlar",
+   "en": "Rebellions"
+  },
+  {
+   "id": "ui.notify.famine",
+   "tr": "Kıtlık",
+   "en": "Famine"
+  },
+  {
+   "id": "ui.notify.religion",
+   "tr": "Dinler",
+   "en": "Religions"
+  },
+  {
+   "id": "ui.notify.item",
+   "tr": "Efsanevi eşyalar",
+   "en": "Legendary items"
+  },
+  {
+   "id": "ui.notify.discovery",
+   "tr": "Keşifler",
+   "en": "Discoveries"
+  },
+  {
+   "id": "ui.notify.achievement",
+   "tr": "Başarımlar",
+   "en": "Achievements"
+  },
+  {
+   "id": "ui.notify.favorite",
+   "tr": "İzlenen birim",
+   "en": "Followed unit"
+  },
+  {
+   "id": "ui.notify.misc",
+   "tr": "Diğer",
+   "en": "Other"
+  },
+  {
+   "id": "ui.tutorial_fmt",
+   "tr": "Rehber {0}/{1}: {2}",
+   "en": "Guide {0}/{1}: {2}"
+  },
+  {
+   "id": "ui.tutorial_skip",
+   "tr": "Rehberi Geç",
+   "en": "Skip Guide"
+  },
+  {
+   "id": "ui.tutorial_restart",
+   "tr": "Rehberi Yeniden Başlat",
+   "en": "Restart Guide"
+  },
+  {
+   "id": "ui.tutorial_restart_note",
+   "tr": "Rehber bir sonraki açılışta başlar",
+   "en": "The guide starts next launch"
+  },
+  {
+   "id": "ui.tutorial.1",
+   "tr": "Dünya sekmesinden bir kara fırçası seç ve denize kara çiz.",
+   "en": "Pick a land brush from the World tab and draw land into the sea."
+  },
+  {
+   "id": "ui.tutorial.2",
+   "tr": "Yaratıklar sekmesinden bir hayvan bırak.",
+   "en": "Drop an animal from the Creatures tab."
+  },
+  {
+   "id": "ui.tutorial.3",
+   "tr": "Medeniyetler sekmesinden insan (ya da başka bir uygar tür) bırak.",
+   "en": "Drop humans (or another civilized species) from the Civilizations tab."
+  },
+  {
+   "id": "ui.tutorial.4",
+   "tr": "Zamanı akıt: bir yıl geçsin.",
+   "en": "Let time flow: wait one year."
+  },
+  {
+   "id": "ui.tutorial.5",
+   "tr": "İncele düğmesiyle bir şehre tıkla.",
+   "en": "Use Inspect and click a city."
+  },
+  {
+   "id": "ui.tutorial.6",
+   "tr": "Doğa ya da Yıkım sekmesinden bir güç kullan.",
+   "en": "Use a power from the Nature or Destruction tab."
+  },
+  {
+   "id": "ui.tutorial.7",
+   "tr": "Kanunlar penceresini aç.",
+   "en": "Open the Laws window."
+  },
+  {
+   "id": "ui.tutorial.8",
+   "tr": "Kayıtlar menüsünden dünyanı kaydet.",
+   "en": "Save your world from the Saves menu."
+  },
+  {
+   "id": "ui.tutorial.1.desktop",
+   "tr": "Dünya sekmesinden kara fırçası seç; haritada basılı tutup sürükleyerek denize kara çiz.",
+   "en": "Choose a land brush in World, then click and drag over the sea to raise land."
+  },
+  {
+   "id": "ui.tutorial.1.mobile",
+   "tr": "Dünya sekmesinden kara fırçasını seç; haritada parmağınla sürükleyerek denize kara çiz.",
+   "en": "Choose a land brush in World, then drag a finger across the sea to raise land."
+  },
+  {
+   "id": "ui.tutorial.2.desktop",
+   "tr": "Yaratıklar sekmesinden bir hayvan seç; haritada boş bir noktaya tıkla.",
+   "en": "Choose an animal in Creatures, then click an open spot on the map."
+  },
+  {
+   "id": "ui.tutorial.2.mobile",
+   "tr": "Yaratıklar sekmesinden bir hayvan seç; haritada boş bir noktaya dokun.",
+   "en": "Choose an animal in Creatures, then tap an open spot on the map."
+  },
+  {
+   "id": "ui.tutorial.3.desktop",
+   "tr": "Medeniyetler sekmesinden bir insan seç ve yerleşebilecekleri kara üzerine tıkla.",
+   "en": "Choose a human in Civilizations and click suitable land to place them."
+  },
+  {
+   "id": "ui.tutorial.3.mobile",
+   "tr": "Medeniyetler sekmesinden bir insan seç ve yerleşebilecekleri karaya dokun.",
+   "en": "Choose a human in Civilizations and tap suitable land to place them."
+  },
+  {
+   "id": "ui.tutorial.4.desktop",
+   "tr": "Zamanı oynat; üst çubuktaki hız denetiminden akışı hızlandırabilirsin.",
+   "en": "Start time; use the speed control in the top bar to make it pass faster."
+  },
+  {
+   "id": "ui.tutorial.4.mobile",
+   "tr": "Oynat düğmesine dokun; zaman hızını üst çubuktaki denetimden değiştirebilirsin.",
+   "en": "Tap Play; change the speed with the control in the top bar."
+  },
+  {
+   "id": "ui.tutorial.5.desktop",
+   "tr": "İncele aracını seçip yaşayan bir şehre tıkla.",
+   "en": "Select Inspect, then click a living city."
+  },
+  {
+   "id": "ui.tutorial.5.mobile",
+   "tr": "İncele aracını seçip yaşayan bir şehre dokun.",
+   "en": "Select Inspect, then tap a living city."
+  },
+  {
+   "id": "ui.tutorial.6.desktop",
+   "tr": "Doğa veya Yıkım sekmesinden bir güç seçip haritada uygula.",
+   "en": "Choose a power in Nature or Destruction and apply it to the map."
+  },
+  {
+   "id": "ui.tutorial.6.mobile",
+   "tr": "Doğa veya Yıkım sekmesinden bir güç seçip haritada dokunarak uygula.",
+   "en": "Choose a power in Nature or Destruction, then tap the map to use it."
+  },
+  {
+   "id": "ui.tutorial.7.desktop",
+   "tr": "Diğer sekmesinden Kanunlar penceresini aç.",
+   "en": "Open the Laws window from the Other tab."
+  },
+  {
+   "id": "ui.tutorial.7.mobile",
+   "tr": "Diğer sekmesine dokunup Kanunlar penceresini aç.",
+   "en": "Tap the Other tab, then open the Laws window."
+  },
+  {
+   "id": "ui.tutorial.8.desktop",
+   "tr": "Kayıtlar menüsünü aç ve dünyanı kaydet.",
+   "en": "Open Saves and save your world."
+  },
+  {
+   "id": "ui.tutorial.8.mobile",
+   "tr": "Menüden Kayıtlar'ı aç ve dünyanı kaydet.",
+   "en": "Open Saves from the menu and save your world."
+  },
+  {
+   "id": "ui.audio",
+   "tr": "Ses",
+   "en": "Audio"
+  },
+  {
+   "id": "ui.volume.0",
+   "tr": "Ana ses",
+   "en": "Master"
+  },
+  {
+   "id": "ui.volume.1",
+   "tr": "Efektler",
+   "en": "Effects"
+  },
+  {
+   "id": "ui.volume.2",
+   "tr": "Arayüz",
+   "en": "Interface"
+  },
+  {
+   "id": "ui.volume.3",
+   "tr": "Ortam",
+   "en": "Ambience"
+  },
+  {
+   "id": "ui.whats_new",
+   "tr": "Yenilikler",
+   "en": "What's New"
+  },
+  {
+   "id": "ui.volume.4",
+   "tr": "Müzik",
+   "en": "Music"
+  },
+  {
+   "id": "ui.max_fps",
+   "tr": "Azami FPS",
+   "en": "Max FPS"
+  },
+  {
+   "id": "ui.pick_target",
+   "tr": "Hedef seç: haritada bir birime ya da şehre tıkla",
+   "en": "Pick a target: click a unit or a city on the map"
+  },
+  {
+   "id": "ui.immune",
+   "tr": "Bağışık:",
+   "en": "Immune:"
+  },
+  {
+   "id": "ui.locked_fmt",
+   "tr": "Kilitli — {0}: {1}",
+   "en": "Locked — {0}: {1}"
+  },
+  {
+   "id": "ui.gov.title",
+   "tr": "Krallık Valileri (Yapay Zekâ)",
+   "en": "Kingdom Governors (AI)"
+  },
+  {
+   "id": "ui.gov.enabled",
+   "tr": "Valileri etkinleştir",
+   "en": "Enable governors"
+  },
+  {
+   "id": "ui.gov.profile",
+   "tr": "Uç nokta profili",
+   "en": "Endpoint profile"
+  },
+  {
+   "id": "ui.gov.profile.cloud",
+   "tr": "Bulut (OpenAI uyumlu)",
+   "en": "Cloud (OpenAI-compatible)"
+  },
+  {
+   "id": "ui.gov.profile.local",
+   "tr": "Yerel (Ollama / LM Studio)",
+   "en": "Local (Ollama / LM Studio)"
+  },
+  {
+   "id": "ui.gov.base_url",
+   "tr": "Uç nokta adresi",
+   "en": "Endpoint URL"
+  },
+  {
+   "id": "ui.gov.model",
+   "tr": "Model",
+   "en": "Model"
+  },
+  {
+   "id": "ui.gov.scope",
+   "tr": "Kapsam",
+   "en": "Scope"
+  },
+  {
+   "id": "ui.gov.scope.all",
+   "tr": "Tüm krallıklar",
+   "en": "All kingdoms"
+  },
+  {
+   "id": "ui.gov.scope.controlled",
+   "tr": "Kontrol edilen krallıklar",
+   "en": "Controlled kingdoms"
+  },
+  {
+   "id": "ui.gov.scope.topn",
+   "tr": "En güçlü N krallık",
+   "en": "Top N kingdoms"
+  },
+  {
+   "id": "ui.gov.hint",
+   "tr": "API anahtarı ortam değişkeni PG_GOVERNOR_KEY veya ~/.pixelgenesis/governor_key dosyasından okunur.",
+   "en": "API key is read from the PG_GOVERNOR_KEY environment variable or ~/.pixelgenesis/governor_key."
+  },
+  {
+   "id": "ui.gov.api_key",
+   "tr": "API anahtarı",
+   "en": "API key"
+  },
+  {
+   "id": "ui.gov.external_key",
+   "tr": "Bilgisayardaki API anahtarını kullan",
+   "en": "Use the API key configured on this computer"
+  },
+  {
+   "id": "ui.gov.save_connection",
+   "tr": "Bağlantı ayarlarını kaydet",
+   "en": "Save connection settings"
+  },
+  {
+   "id": "ui.gov.config_error",
+   "tr": "URL geçersiz. http/https adresi ve model adını kontrol et.",
+   "en": "Invalid URL. Check the http/https address and model name."
+  },
+  {
+   "id": "ui.gov.config_applied",
+   "tr": "AI bağlantı ayarları kaydedildi.",
+   "en": "AI connection settings saved."
+  },
+  {
+   "id": "ui.gov.web_hint",
+   "tr": "API anahtarı bu tarayıcı oturumu boyunca bellekte kalır; sayfayı yenileyince yeniden gir. Bağlantı için sağlayıcının oyun adresine CORS izni vermesi gerekir.",
+   "en": "The API key stays in browser memory for this session and must be re-entered after a reload. The provider must allow CORS requests from the game address."
+  },
+  {
+   "id": "ui.gov.no_decision",
+   "tr": "Vali kararı yok",
+   "en": "No governor decision yet"
+  },
+  {
+   "id": "ui.gov.last_fmt",
+   "tr": "Vali kararı (yıl {0}): {1}",
+   "en": "Governor decision (year {0}): {1}"
+  },
+  {
+   "id": "ui.gov.takeover",
+   "tr": "Yapay zekâ yönetimini devral",
+   "en": "Take over from the AI"
+  },
+  {
+   "id": "ui.gov.hands_over",
+   "tr": "Bu krallığı yapay zekâye ver",
+   "en": "Hand this kingdom to the AI"
+  },
+  {
+   "id": "ui.gov.status_fmt",
+   "tr": "Bağlantı: {0}",
+   "en": "Connection: {0}"
+  },
+  {
+   "id": "ui.gov.status.unknown",
+   "tr": "sınanmadı",
+   "en": "not tested"
+  },
+  {
+   "id": "ui.gov.status.testing",
+   "tr": "sınanıyor…",
+   "en": "testing…"
+  },
+  {
+   "id": "ui.gov.status.ok",
+   "tr": "bağlantı var",
+   "en": "connected"
+  },
+  {
+   "id": "ui.gov.status.failed",
+   "tr": "erişilemedi",
+   "en": "unreachable"
+  },
+  {
+   "id": "ui.gov.test_connection",
+   "tr": "Bağlantıyı sına",
+   "en": "Test connection"
+  },
+  {
+   "id": "ui.gov.limits_fmt",
+   "tr": "Sınırlar: krallık başına {0} sn bekleme, {1} eşzamanlı istek, saatte {2} model çağrısı",
+   "en": "Limits: {0}s per-kingdom wait, {1} concurrent requests, {2} model calls per hour"
+  },
+  {
+   "id": "ui.gov.proposal_peace_fmt",
+   "tr": "{0} barış teklif etti",
+   "en": "{0} proposes peace"
+  },
+  {
+   "id": "ui.gov.proposal_alliance_fmt",
+   "tr": "{0} ittifak teklif etti",
+   "en": "{0} proposes an alliance"
+  },
+  {
+   "id": "ui.gov.proposal_trade_fmt",
+   "tr": "{0} ticaret anlaşması teklif etti",
+   "en": "{0} proposes a trade agreement"
+  },
+  {
+   "id": "ui.gov.proposal_nonaggression_fmt",
+   "tr": "{0} saldırmazlık antlaşması teklif etti",
+   "en": "{0} proposes a non-aggression pact"
+  },
+  {
+   "id": "ui.gov.proposal_embargo_fmt",
+   "tr": "{0} karşılıklı ticaret ambargosu teklif etti",
+   "en": "{0} proposes a mutual trade embargo"
+  },
+  {
+   "id": "ui.gov.proposal_vassalage_fmt",
+   "tr": "{0} vasallık ve yıllık haraç teklif etti",
+   "en": "{0} proposes vassalage and annual tribute"
+  },
+  {
+   "id": "ui.gov.peace_tribute_fmt",
+   "tr": "{0} altın haraç",
+   "en": "{0} gold tribute"
+  },
+  {
+   "id": "ui.gov.peace_city_fmt",
+   "tr": "{0} şehri devredilecek",
+   "en": "{0} city will be ceded"
+  },
+  {
+   "id": "ui.gov.peace_vassalize",
+   "tr": "Öneren krallık vasal olacak",
+   "en": "The proposing kingdom becomes a vassal"
+  },
+  {
+   "id": "ui.gov.peace_nap_fmt",
+   "tr": "{0} yıllık saldırmazlık",
+   "en": "{0}-year non-aggression pact"
+  },
+  {
+   "id": "ui.war_army_logistics_fmt",
+   "tr": "{0} ordusu · {1} asker · moral {2}/100 · erzak {3}",
+   "en": "{0} army · {1} soldiers · morale {2}/100 · rations {3}"
+  },
+  {
+   "id": "ui.war_siege_progress_fmt",
+   "tr": "Kuşatma süresi: {0} ay",
+   "en": "Siege duration: {0} months"
+  },
+  {
+   "id": "ui.diplomacy.vassal",
+   "tr": "Vasalı",
+   "en": "Vassal"
+  },
+  {
+   "id": "ui.diplomacy.overlord",
+   "tr": "Üst hükümdar",
+   "en": "Overlord"
+  },
+  {
+   "id": "ui.diplomacy.trade",
+   "tr": "Ticaret anlaşması",
+   "en": "Trade agreement"
+  },
+  {
+   "id": "ui.diplomacy.nonaggression",
+   "tr": "Saldırmazlık",
+   "en": "Non-aggression pact"
+  },
+  {
+   "id": "ui.diplomacy.embargo",
+   "tr": "Ticaret ambargosu",
+   "en": "Trade embargo"
+  },
+  {
+   "id": "ui.diplomacy.envoy_fmt",
+   "tr": "Elçi → {0}:",
+   "en": "Envoy → {0}:"
+  },
+  {
+   "id": "ui.diplomacy.offer_peace",
+   "tr": "Barış teklif et",
+   "en": "Offer peace"
+  },
+  {
+   "id": "ui.diplomacy.offer_alliance",
+   "tr": "İttifak teklif et",
+   "en": "Offer alliance"
+  },
+  {
+   "id": "ui.diplomacy.offer_trade",
+   "tr": "Ticaret anlaşması teklif et",
+   "en": "Offer trade agreement"
+  },
+  {
+   "id": "ui.diplomacy.offer_nonaggression",
+   "tr": "Saldırmazlık teklif et",
+   "en": "Offer non-aggression pact"
+  },
+  {
+   "id": "ui.diplomacy.offer_vassalage",
+   "tr": "Vasal olmaya davet et",
+   "en": "Invite as vassal"
+  },
+  {
+   "id": "ui.diplomacy.offer_embargo",
+   "tr": "Ticaret ambargosu teklif et",
+   "en": "Offer trade embargo"
+  },
+  {
+   "id": "ui.diplomacy.peace_terms",
+   "tr": "Barış şartları",
+   "en": "Peace terms"
+  },
+  {
+   "id": "ui.diplomacy.peace_offer_to_fmt",
+   "tr": "{0} krallığına barış teklifi",
+   "en": "Peace offer to {0}"
+  },
+  {
+   "id": "ui.diplomacy.peace_unavailable",
+   "tr": "Bu krallık için barış teklifi oluşturulamıyor.",
+   "en": "A peace offer cannot be created for this kingdom."
+  },
+  {
+   "id": "ui.diplomacy.tribute_gold",
+   "tr": "Ödenecek altın",
+   "en": "Gold to pay"
+  },
+  {
+   "id": "ui.diplomacy.tribute_available_fmt",
+   "tr": "Hazinede kullanılabilir: {0} altın",
+   "en": "Available in treasury: {0} gold"
+  },
+  {
+   "id": "ui.diplomacy.city_to_transfer",
+   "tr": "Devredilecek şehir",
+   "en": "City to transfer"
+  },
+  {
+   "id": "ui.diplomacy.no_city",
+   "tr": "Şehir devri yok",
+   "en": "No city transfer"
+  },
+  {
+   "id": "ui.diplomacy.vassalize_proposer",
+   "tr": "Teklif eden krallık vasal olsun",
+   "en": "Make the proposing kingdom a vassal"
+  },
+  {
+   "id": "ui.diplomacy.nonaggression_years",
+   "tr": "Saldırmazlık süresi (yıl)",
+   "en": "Non-aggression duration (years)"
+  },
+  {
+   "id": "ui.gov.accept",
+   "tr": "Kabul",
+   "en": "Accept"
+  },
+  {
+   "id": "ui.gov.reject",
+   "tr": "Ret",
+   "en": "Reject"
+  },
+  {
+   "id": "ui.gov.advisor_fmt",
+   "tr": "Danışman [{0}]: {1}",
+   "en": "Advisor [{0}]: {1}"
+  },
+  {
+   "id": "ui.gov.rejected",
+   "tr": "Kural denetiminde reddedilenler:",
+   "en": "Rejected by rule checks:"
+  },
+  {
+   "id": "ui.leave_alliance",
+   "tr": "İttifaktan Ayrıl",
+   "en": "Leave Alliance"
+  },
+  {
+   "id": "ui.day_night",
+   "tr": "Gün/gece ışık döngüsü",
+   "en": "Day/night light cycle"
+  },
+  {
+   "id": "ui.mainmenu.subtitle",
+   "tr": "Bir tanrı gibi izle, biçimlendir ve yönlendir.",
+   "en": "Watch, shape and guide like a god."
+  },
+  {
+   "id": "ui.inventions_researching",
+   "tr": "Araştırılan Buluş",
+   "en": "Current Research"
+  },
+  {
+   "id": "ui.inventions_unlocked",
+   "tr": "Keşfedilen İcatlar",
+   "en": "Discovered Inventions"
+  },
+  {
+   "id": "ui.research_progress_fmt",
+   "tr": "İlerleme: {0} / {1} AP",
+   "en": "Progress: {0} / {1} RP"
+  },
+  {
+   "id": "ui.no_current_research",
+   "tr": "Araştırılan yeni buluş yok (Tüm teknolojiler tamamlandı)",
+   "en": "No active research (All technologies discovered)"
+  },
+  {
+   "id": "ui.no_inventions_yet",
+   "tr": "Henüz keşfedilmiş bir buluş yok",
+   "en": "No inventions discovered yet"
+  },
+  {
+   "id": "ui.inv_category.transport",
+   "tr": "Ulaşım ve Taşıt",
+   "en": "Transport & Vehicles"
+  },
+  {
+   "id": "ui.inv_category.production",
+   "tr": "Üretim ve Zanaat",
+   "en": "Production & Craft"
+  },
+  {
+   "id": "ui.inv_category.military",
+   "tr": "Askeri ve Kuşatma",
+   "en": "Military & Siege"
+  },
+  {
+   "id": "ui.inv_category.science",
+   "tr": "Bilim ve Düşünce",
+   "en": "Science & Thought"
+  },
+  {
+   "id": "ui.tile_details",
+   "tr": "Konum ayrıntıları",
+   "en": "Location details"
+  },
+  {
+   "id": "ui.tile_details_fmt",
+   "tr": "Konum · {0}, {1}",
+   "en": "Location · {0}, {1}"
+  },
+  {
+   "id": "ui.tile_ground_fmt",
+   "tr": "Arazi: {0}",
+   "en": "Ground: {0}"
+  },
+  {
+   "id": "ui.tile_biome_fmt",
+   "tr": "Biyom: {0}",
+   "en": "Biome: {0}"
+  },
+  {
+   "id": "ui.tile_temperature_fmt",
+   "tr": "Sıcaklık: {0} °C",
+   "en": "Temperature: {0} °C"
+  },
+  {
+   "id": "ui.tile_city_fmt",
+   "tr": "Şehri incele: {0}",
+   "en": "Inspect city: {0}"
+  },
+  {
+   "id": "ui.tile_unit_fmt",
+   "tr": "Birimi incele: {0} · {1} · {2} Can",
+   "en": "Inspect unit: {0} · {1} · {2} HP"
+  },
+  {
+   "id": "ui.tile_no_biome",
+   "tr": "Yok",
+   "en": "None"
+  },
+  {
+   "id": "ui.tile_no_unit",
+   "tr": "Bu noktada birim yok.",
+   "en": "No unit at this location."
+  },
+  {
+   "id": "ui.tile_protection_status_fmt",
+   "tr": "Tür koruması: {0}",
+   "en": "Species protected: {0}"
+  },
+  {
+   "id": "ui.tile_protection_add_fmt",
+   "tr": "Bu bölgeyi {0} için koru",
+   "en": "Protect this zone for {0}"
+  },
+  {
+   "id": "ui.tile_protection_remove",
+   "tr": "Bu bölgedeki tür korumasını kaldır",
+   "en": "Remove species protection from this zone"
+  },
+  {
+   "id": "ui.diagnostics",
+   "tr": "Tanılama",
+   "en": "Diagnostics"
+  },
+  {
+   "id": "ui.diagnostics_note",
+   "tr": "Son hatalar yerel olarak tutulur. Kopyalanan pakette API anahtarı ve e-posta adresleri maskelenir; telemetri kapalıdır.",
+   "en": "Recent errors are stored locally. API keys and email addresses are redacted from copied packages; telemetry is disabled."
+  },
+  {
+   "id": "ui.diagnostics_copy",
+   "tr": "Tanı paketini kopyala",
+   "en": "Copy diagnostics package"
+  },
+  {
+   "id": "ui.diagnostics_copied",
+   "tr": "Tanı paketi panoya kopyalandı.",
+   "en": "Diagnostics package copied to clipboard."
+  },
+  {
+   "id": "ui.diagnostics_copy_failed",
+   "tr": "Tanı paketi oluşturulamadı.",
+   "en": "Could not create diagnostics package."
+  },
+  {
+   "id": "ui.law.simulation_detail",
+   "tr": "Simülasyon dilimleri",
+   "en": "Simulation slices"
+  },
+  {
+   "id": "ui.law.simulation_detail_note",
+   "tr": "Daha çok dilim birim kararlarını zamana yayar; en fazla birkaç tick gecikme oluşturabilir. Bu dünya ayarı kayda yazılır.",
+   "en": "More slices spread unit decisions over time and may delay them by a few ticks. This world setting is saved."
+  },
+  {
+   "id": "ui.war_cause.border_dispute",
+   "tr": "Sınır anlaşmazlığı",
+   "en": "Border dispute"
+  },
+  {
+   "id": "ui.war_cause.resource_shortage",
+   "tr": "Kaynak kıtlığı",
+   "en": "Resource shortage"
+  },
+  {
+   "id": "ui.war_cause.religious_difference",
+   "tr": "Din farklılığı",
+   "en": "Religious difference"
+  },
+  {
+   "id": "ui.war_cause.cultural_difference",
+   "tr": "Kültür farklılığı",
+   "en": "Cultural difference"
+  },
+  {
+   "id": "ui.war_cause.revenge",
+   "tr": "İntikam",
+   "en": "Revenge"
+  },
+  {
+   "id": "ui.war_cause.alliance_call",
+   "tr": "İttifak çağrısı",
+   "en": "Alliance call"
+  },
+  {
+   "id": "ui.war_cause.rebellion_suppression",
+   "tr": "İsyanı bastırma",
+   "en": "Rebellion suppression"
+  },
+  {
+   "id": "ui.war_cause.succession_dispute",
+   "tr": "Veraset anlaşmazlığı",
+   "en": "Succession dispute"
+  },
+  {
+   "id": "ui.war_cause.treaty_breach",
+   "tr": "Antlaşma ihlali",
+   "en": "Treaty breach"
+  },
+  {
+   "id": "ui.war_goal.city_conquest",
+   "tr": "Şehir fethi",
+   "en": "Conquer a city"
+  },
+  {
+   "id": "ui.war_goal.tribute",
+   "tr": "Haraç talebi",
+   "en": "Demand tribute"
+  },
+  {
+   "id": "ui.war_goal.vassalize",
+   "tr": "Vasal yapma",
+   "en": "Vassalize"
+  },
+  {
+   "id": "ui.war_goal.destruction",
+   "tr": "Yıkım",
+   "en": "Destruction"
+  },
+  {
+   "id": "ui.war_goal.plunder",
+   "tr": "Yağma",
+   "en": "Plunder"
+  },
+  {
+   "id": "neuron.eat",
+   "tr": "Beslen",
+   "en": "Eat"
+  },
+  {
+   "id": "neuron.sleep",
+   "tr": "Uyu",
+   "en": "Sleep"
+  },
+  {
+   "id": "neuron.flee",
+   "tr": "Kaç",
+   "en": "Flee"
+  },
+  {
+   "id": "neuron.attack",
+   "tr": "Saldır",
+   "en": "Attack"
+  },
+  {
+   "id": "neuron.hunt",
+   "tr": "Avlan",
+   "en": "Hunt"
+  },
+  {
+   "id": "neuron.mate",
+   "tr": "Çiftleş",
+   "en": "Mate"
+  },
+  {
+   "id": "neuron.follow_parent",
+   "tr": "Ebeveyni izle",
+   "en": "Follow parent"
+  },
+  {
+   "id": "neuron.wander_base",
+   "tr": "Dolaş",
+   "en": "Wander"
+  },
+  {
+   "id": "neuron.rest",
+   "tr": "Dinlen",
+   "en": "Rest"
+  },
+  {
+   "id": "neuron.swim_to_land",
+   "tr": "Karaya yüz",
+   "en": "Swim to land"
+  },
+  {
+   "id": "neuron.cast_spell",
+   "tr": "Büyü yap",
+   "en": "Cast spell"
+  },
+  {
+   "id": "neuron.work",
+   "tr": "Çalış",
+   "en": "Work"
+  },
+  {
+   "id": "neuron.return_home",
+   "tr": "Eve dön",
+   "en": "Return home"
+  },
+  {
+   "id": "neuron.explore",
+   "tr": "Keşfet",
+   "en": "Explore"
+  },
+  {
+   "id": "neuron.wander",
+   "tr": "Gezin",
+   "en": "Roam"
+  },
+  {
+   "id": "neuron.migrate",
+   "tr": "Göç et",
+   "en": "Migrate"
+  },
+  {
+   "id": "neuron.seasonal_migrate",
+   "tr": "Mevsimlik göç",
+   "en": "Seasonal migration"
+  },
+  {
+   "id": "neuron.stay_home",
+   "tr": "Evde kal",
+   "en": "Stay home"
+  },
+  {
+   "id": "neuron.teleport_home",
+   "tr": "Eve ışınlan",
+   "en": "Teleport home"
+  },
+  {
+   "id": "neuron.read_book",
+   "tr": "Kitap oku",
+   "en": "Read book"
+  },
+  {
+   "id": "neuron.pack_hunt",
+   "tr": "Sürü avı",
+   "en": "Pack hunt"
+  },
+  {
+   "id": "neuron.follow_herd",
+   "tr": "Sürüyü izle",
+   "en": "Follow herd"
+  },
+  {
+   "id": "neuron.guard_territory",
+   "tr": "Bölgeyi koru",
+   "en": "Guard territory"
+  },
+  {
+   "id": "neuron.charge",
+   "tr": "Hücum et",
+   "en": "Charge"
+  },
+  {
+   "id": "neuron.build_nest",
+   "tr": "Yuva yap",
+   "en": "Build nest"
+  },
+  {
+   "id": "neuron.hoard_food",
+   "tr": "Yiyecek biriktir",
+   "en": "Hoard food"
+  },
+  {
+   "id": "neuron.give_gift",
+   "tr": "Hediye ver",
+   "en": "Give gift"
+  },
+  {
+   "id": "neuron.bury_dead",
+   "tr": "Ölüleri göm",
+   "en": "Bury dead"
+  },
+  {
+   "id": "neuron.stargaze",
+   "tr": "Yıldızları izle",
+   "en": "Stargaze"
+  },
+  {
+   "id": "neuron.dance",
+   "tr": "Dans et",
+   "en": "Dance"
+  },
+  {
+   "id": "neuron.make_fire",
+   "tr": "Ateş yak",
+   "en": "Make fire"
+  },
+  {
+   "id": "neuron.tame_animal",
+   "tr": "Evcilleştir",
+   "en": "Tame animal"
+  },
+  {
+   "id": "neuron.tell_story",
+   "tr": "Hikaye anlat",
+   "en": "Tell story"
+  },
+  {
+   "id": "neuron.raid",
+   "tr": "Yağmala",
+   "en": "Raid"
+  },
+  {
+   "id": "neuron.collect_shiny",
+   "tr": "Parlak nesne topla",
+   "en": "Collect shiny objects"
+  },
+  {
+   "id": "neuron.greet_sun",
+   "tr": "Güneşi selamla",
+   "en": "Greet sun"
+  },
+  {
+   "id": "neuron.instinct",
+   "tr": "İçgüdü",
+   "en": "Instinct"
+  }
+ ]
+}

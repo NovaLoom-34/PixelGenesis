@@ -1,0 +1,126 @@
+{
+ "category": "history_kinds",
+ "count": 30,
+ "items": [
+  {
+   "id": "history.kingdom_founded",
+   "importance": 75
+  },
+  {
+   "id": "history.kingdom_fell",
+   "importance": 90
+  },
+  {
+   "id": "history.new_king",
+   "importance": 65
+  },
+  {
+   "id": "history.war_declared",
+   "importance": 72
+  },
+  {
+   "id": "history.peace",
+   "importance": 58
+  },
+  {
+   "id": "history.city_founded",
+   "importance": 42
+  },
+  {
+   "id": "history.city_ruined",
+   "importance": 62
+  },
+  {
+   "id": "history.city_captured",
+   "importance": 78
+  },
+  {
+   "id": "history.rebellion",
+   "importance": 68
+  },
+  {
+   "id": "history.alliance_formed",
+   "importance": 52
+  },
+  {
+   "id": "history.culture_founded",
+   "importance": 48
+  },
+  {
+   "id": "history.language_founded",
+   "importance": 42
+  },
+  {
+   "id": "history.religion_founded",
+   "importance": 48
+  },
+  {
+   "id": "history.clan_founded",
+   "importance": 30
+  },
+  {
+   "id": "history.meta_died",
+   "importance": 8
+  },
+  {
+   "id": "history.plot_succeeded",
+   "importance": 35
+  },
+  {
+   "id": "history.plot_failed",
+   "importance": 20
+  },
+  {
+   "id": "history.disaster",
+   "importance": 55
+  },
+  {
+   "id": "history.book_written",
+   "importance": 12
+  },
+  {
+   "id": "history.item_forged",
+   "importance": 8
+  },
+  {
+   "id": "history.species_endangered",
+   "importance": 45
+  },
+  {
+   "id": "history.species_extinct",
+   "importance": 82
+  },
+  {
+   "id": "history.vassalage",
+   "importance": 46
+  },
+  {
+   "id": "history.tribute_paid",
+   "importance": 15
+  },
+  {
+   "id": "history.city_pillaged",
+   "importance": 32
+  },
+  {
+   "id": "history.invention_discovered",
+   "importance": 28
+  },
+  {
+   "id": "history.famine",
+   "importance": 62
+  },
+  {
+   "id": "history.population_migrated",
+   "importance": 44
+  },
+  {
+   "id": "history.person_died",
+   "importance": 5
+  },
+  {
+   "id": "history.king_died",
+   "importance": 70
+  }
+ ]
+}

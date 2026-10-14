@@ -1,0 +1,54 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "scenarios",
+ "type": "object",
+ "required": ["category", "items"],
+ "properties": {
+  "category": { "const": "scenarios" },
+  "count": { "type": "integer" },
+  "items": {
+   "type": "array",
+   "minItems": 1,
+   "items": {
+    "type": "object",
+    "required": ["id", "name", "nameEn", "description", "template", "size", "seed", "startingSpecies", "startingPopulation", "goals", "failures"],
+    "properties": {
+     "id": { "type": "string", "pattern": "^scenario\\.[a-z0-9_]+$" },
+     "name": { "type": "string", "minLength": 1 },
+     "nameEn": { "type": "string", "minLength": 1 },
+     "description": { "type": "string", "minLength": 1 },
+     "descriptionEn": { "type": "string", "minLength": 1 },
+     "template": { "type": "string" },
+     "size": { "enum": ["Tiny", "Small", "Medium", "Large", "Huge", "Giant", "Titanic"] },
+     "seed": { "type": "integer", "minimum": 1 },
+     "temperature": { "type": "number", "minimum": 0, "maximum": 1 },
+     "moisture": { "type": "number", "minimum": 0, "maximum": 1 },
+     "startingSpecies": { "type": "string" },
+     "startingPopulation": { "type": "integer", "minimum": 0, "maximum": 100 },
+     "spawnAnimals": { "type": "boolean" },
+     "restrictPowers": { "type": "boolean" },
+     "allowedPowers": { "type": "array", "items": { "type": "string" } },
+     "goals": { "$ref": "#/$defs/conditions", "minItems": 1 },
+     "failures": { "$ref": "#/$defs/conditions" }
+    },
+    "additionalProperties": false
+   }
+  }
+ },
+ "$defs": {
+  "conditions": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": ["metric", "operator", "target", "text"],
+    "properties": {
+     "metric": { "enum": ["elapsedYears", "livingPopulation", "livingKingdoms", "livingCities", "alliances", "subspecies"] },
+     "operator": { "enum": ["atLeast", "atMost"] },
+     "target": { "type": "integer", "minimum": 0 },
+     "text": { "type": "string" }
+    },
+    "additionalProperties": false
+   }
+  }
+ }
+}

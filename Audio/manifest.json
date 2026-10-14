@@ -1,0 +1,490 @@
+[
+  {
+    "id": "snd.brush",
+    "file": "sfx/brush.wav",
+    "seconds": 0.22,
+    "peak": 0.72,
+    "rms": 0.1298,
+    "seam": 0.0
+  },
+  {
+    "id": "snd.power_world",
+    "file": "sfx/power_world.wav",
+    "seconds": 0.65,
+    "peak": 0.6693,
+    "rms": 0.15,
+    "seam": 0.0
+  },
+  {
+    "id": "snd.power_civ",
+    "file": "sfx/power_civ.wav",
+    "seconds": 0.9,
+    "peak": 0.72,
+    "rms": 0.1591,
+    "seam": 0.0
+  },
+  {
+    "id": "snd.power_creatures",
+    "file": "sfx/power_creatures.wav",
+    "seconds": 0.7,
+    "peak": 0.529,
+    "rms": 0.1599,
+    "seam": 0.0
+  },
+  {
+    "id": "snd.power_nature",
+    "file": "sfx/power_nature.wav",
+    "seconds": 0.85,
+    "peak": 0.72,
+    "rms": 0.1027,
+    "seam": 0.0
+  },
+  {
+    "id": "snd.power_destruction",
+    "file": "sfx/power_destruction.wav",
+    "seconds": 1.1,
+    "peak": 0.72,
+    "rms": 0.0717,
+    "seam": 0.0
+  },
+  {
+    "id": "snd.power_other",
+    "file": "sfx/power_other.wav",
+    "seconds": 1.05,
+    "peak": 0.604,
+    "rms": 0.1599,
+    "seam": 0.0
+  },
+  {
+    "id": "snd.lightning",
+    "file": "sfx/lightning.wav",
+    "seconds": 2.8,
+    "peak": 0.72,
+    "rms": 0.0857,
+    "seam": 0.0
+  },
+  {
+    "id": "snd.earthquake",
+    "file": "sfx/earthquake.wav",
+    "seconds": 3.8,
+    "peak": 0.72,
+    "rms": 0.1257,
+    "seam": 0.0
+  },
+  {
+    "id": "snd.tornado",
+    "file": "sfx/tornado.wav",
+    "seconds": 3.6,
+    "peak": 0.72,
+    "rms": 0.1203,
+    "seam": 0.0
+  },
+  {
+    "id": "snd.explosion_small",
+    "file": "sfx/explosion_small.wav",
+    "seconds": 0.65,
+    "peak": 0.6418,
+    "rms": 0.0919,
+    "seam": 0.0
+  },
+  {
+    "id": "snd.explosion_medium",
+    "file": "sfx/explosion_medium.wav",
+    "seconds": 1.15,
+    "peak": 0.7071,
+    "rms": 0.1062,
+    "seam": 0.0
+  },
+  {
+    "id": "snd.explosion_large",
+    "file": "sfx/explosion_large.wav",
+    "seconds": 2.1,
+    "peak": 0.72,
+    "rms": 0.0901,
+    "seam": 0.0
+  },
+  {
+    "id": "snd.explosion_huge",
+    "file": "sfx/explosion_huge.wav",
+    "seconds": 3.6,
+    "peak": 0.6737,
+    "rms": 0.0883,
+    "seam": 0.0
+  },
+  {
+    "id": "snd.splash",
+    "file": "sfx/splash.wav",
+    "seconds": 0.8,
+    "peak": 0.72,
+    "rms": 0.1189,
+    "seam": 0.0
+  },
+  {
+    "id": "snd.hit_melee",
+    "file": "sfx/hit_melee.wav",
+    "seconds": 0.22,
+    "peak": 0.5515,
+    "rms": 0.0746,
+    "seam": 0.0
+  },
+  {
+    "id": "snd.hit_ranged",
+    "file": "sfx/hit_ranged.wav",
+    "seconds": 0.3,
+    "peak": 0.72,
+    "rms": 0.1242,
+    "seam": 0.0
+  },
+  {
+    "id": "snd.hit_magic",
+    "file": "sfx/hit_magic.wav",
+    "seconds": 0.75,
+    "peak": 0.4696,
+    "rms": 0.1599,
+    "seam": 0.0
+  },
+  {
+    "id": "snd.death_small",
+    "file": "sfx/death_small.wav",
+    "seconds": 0.7,
+    "peak": 0.5609,
+    "rms": 0.15,
+    "seam": 0.0
+  },
+  {
+    "id": "snd.death_large",
+    "file": "sfx/death_large.wav",
+    "seconds": 0.7,
+    "peak": 0.6022,
+    "rms": 0.15,
+    "seam": 0.0
+  },
+  {
+    "id": "snd.death_civ",
+    "file": "sfx/death_civ.wav",
+    "seconds": 0.7,
+    "peak": 0.6021,
+    "rms": 0.15,
+    "seam": 0.0
+  },
+  {
+    "id": "snd.death_monster",
+    "file": "sfx/death_monster.wav",
+    "seconds": 0.7,
+    "peak": 0.5933,
+    "rms": 0.15,
+    "seam": 0.0
+  },
+  {
+    "id": "snd.death_undead",
+    "file": "sfx/death_undead.wav",
+    "seconds": 0.7,
+    "peak": 0.6162,
+    "rms": 0.15,
+    "seam": 0.0
+  },
+  {
+    "id": "snd.death_flying",
+    "file": "sfx/death_flying.wav",
+    "seconds": 0.7,
+    "peak": 0.5722,
+    "rms": 0.15,
+    "seam": 0.0
+  },
+  {
+    "id": "snd.birth",
+    "file": "sfx/birth.wav",
+    "seconds": 0.42,
+    "peak": 0.4752,
+    "rms": 0.1598,
+    "seam": 0.0
+  },
+  {
+    "id": "snd.building_done",
+    "file": "sfx/building_done.wav",
+    "seconds": 1.35,
+    "peak": 0.6407,
+    "rms": 0.1599,
+    "seam": 0.0
+  },
+  {
+    "id": "snd.building_destroyed",
+    "file": "sfx/building_destroyed.wav",
+    "seconds": 1.55,
+    "peak": 0.5173,
+    "rms": 0.072,
+    "seam": 0.0
+  },
+  {
+    "id": "snd.war_bell",
+    "file": "sfx/war_bell.wav",
+    "seconds": 3.0,
+    "peak": 0.6318,
+    "rms": 0.1599,
+    "seam": 0.0
+  },
+  {
+    "id": "snd.victory_horn",
+    "file": "sfx/victory_horn.wav",
+    "seconds": 2.7,
+    "peak": 0.5929,
+    "rms": 0.16,
+    "seam": 0.0
+  },
+  {
+    "id": "snd.battle_crowd",
+    "file": "sfx/battle_crowd.wav",
+    "seconds": 2.4,
+    "peak": 0.72,
+    "rms": 0.1233,
+    "seam": 0.0
+  },
+  {
+    "id": "snd.ui_click",
+    "file": "ui/ui_click.wav",
+    "seconds": 0.19,
+    "peak": 0.4025,
+    "rms": 0.1184,
+    "seam": 0.0
+  },
+  {
+    "id": "snd.ui_open",
+    "file": "ui/ui_open.wav",
+    "seconds": 0.52,
+    "peak": 0.3565,
+    "rms": 0.1199,
+    "seam": 0.0
+  },
+  {
+    "id": "snd.ui_close",
+    "file": "ui/ui_close.wav",
+    "seconds": 0.46,
+    "peak": 0.3583,
+    "rms": 0.1199,
+    "seam": 0.0
+  },
+  {
+    "id": "snd.ui_notify",
+    "file": "ui/ui_notify.wav",
+    "seconds": 0.85,
+    "peak": 0.3842,
+    "rms": 0.1199,
+    "seam": 0.0
+  },
+  {
+    "id": "snd.achievement",
+    "file": "ui/achievement.wav",
+    "seconds": 2.3,
+    "peak": 0.6146,
+    "rms": 0.16,
+    "seam": 0.0
+  },
+  {
+    "id": "snd.amb_ocean",
+    "file": "ambient/amb_ocean.wav",
+    "seconds": 16.0,
+    "peak": 0.72,
+    "rms": 0.1071,
+    "seam": 0.003
+  },
+  {
+    "id": "snd.amb_forest",
+    "file": "ambient/amb_forest.wav",
+    "seconds": 16.0,
+    "peak": 0.5992,
+    "rms": 0.1,
+    "seam": 0.0265
+  },
+  {
+    "id": "snd.amb_city",
+    "file": "ambient/amb_city.wav",
+    "seconds": 16.0,
+    "peak": 0.4528,
+    "rms": 0.1,
+    "seam": 0.0077
+  },
+  {
+    "id": "snd.amb_fire",
+    "file": "ambient/amb_fire.wav",
+    "seconds": 16.0,
+    "peak": 0.6258,
+    "rms": 0.14,
+    "seam": 0.022
+  },
+  {
+    "id": "snd.amb_rain",
+    "file": "ambient/amb_rain.wav",
+    "seconds": 16.0,
+    "peak": 0.6928,
+    "rms": 0.14,
+    "seam": 0.0013
+  },
+  {
+    "id": "snd.amb_wind",
+    "file": "ambient/amb_wind.wav",
+    "seconds": 16.0,
+    "peak": 0.72,
+    "rms": 0.1257,
+    "seam": 0.0003
+  },
+  {
+    "id": "snd.music_dawn_calm",
+    "file": "music/music_dawn_calm.wav",
+    "seconds": 26.667,
+    "peak": 0.5319,
+    "rms": 0.13,
+    "seam": 0.0016
+  },
+  {
+    "id": "snd.music_dawn_tense",
+    "file": "music/music_dawn_tense.wav",
+    "seconds": 26.667,
+    "peak": 0.72,
+    "rms": 0.1143,
+    "seam": 0.0013
+  },
+  {
+    "id": "snd.music_scorch_calm",
+    "file": "music/music_scorch_calm.wav",
+    "seconds": 26.667,
+    "peak": 0.5431,
+    "rms": 0.13,
+    "seam": 0.0047
+  },
+  {
+    "id": "snd.music_scorch_tense",
+    "file": "music/music_scorch_tense.wav",
+    "seconds": 26.667,
+    "peak": 0.72,
+    "rms": 0.1161,
+    "seam": 0.0128
+  },
+  {
+    "id": "snd.music_rain_calm",
+    "file": "music/music_rain_calm.wav",
+    "seconds": 26.667,
+    "peak": 0.5407,
+    "rms": 0.13,
+    "seam": 0.0001
+  },
+  {
+    "id": "snd.music_rain_tense",
+    "file": "music/music_rain_tense.wav",
+    "seconds": 26.667,
+    "peak": 0.72,
+    "rms": 0.1174,
+    "seam": 0.0059
+  },
+  {
+    "id": "snd.music_ice_calm",
+    "file": "music/music_ice_calm.wav",
+    "seconds": 26.667,
+    "peak": 0.5722,
+    "rms": 0.13,
+    "seam": 0.0013
+  },
+  {
+    "id": "snd.music_ice_tense",
+    "file": "music/music_ice_tense.wav",
+    "seconds": 26.667,
+    "peak": 0.72,
+    "rms": 0.1198,
+    "seam": 0.0074
+  },
+  {
+    "id": "snd.music_shadow_calm",
+    "file": "music/music_shadow_calm.wav",
+    "seconds": 26.667,
+    "peak": 0.5377,
+    "rms": 0.13,
+    "seam": 0.0001
+  },
+  {
+    "id": "snd.music_shadow_tense",
+    "file": "music/music_shadow_tense.wav",
+    "seconds": 26.667,
+    "peak": 0.72,
+    "rms": 0.1191,
+    "seam": 0.0097
+  },
+  {
+    "id": "snd.music_blood_calm",
+    "file": "music/music_blood_calm.wav",
+    "seconds": 26.667,
+    "peak": 0.5558,
+    "rms": 0.13,
+    "seam": 0.0045
+  },
+  {
+    "id": "snd.music_blood_tense",
+    "file": "music/music_blood_tense.wav",
+    "seconds": 26.667,
+    "peak": 0.72,
+    "rms": 0.1175,
+    "seam": 0.0019
+  },
+  {
+    "id": "snd.music_glimmer_calm",
+    "file": "music/music_glimmer_calm.wav",
+    "seconds": 26.667,
+    "peak": 0.5515,
+    "rms": 0.13,
+    "seam": 0.0052
+  },
+  {
+    "id": "snd.music_glimmer_tense",
+    "file": "music/music_glimmer_tense.wav",
+    "seconds": 26.667,
+    "peak": 0.72,
+    "rms": 0.1187,
+    "seam": 0.006
+  },
+  {
+    "id": "snd.music_ash_calm",
+    "file": "music/music_ash_calm.wav",
+    "seconds": 26.667,
+    "peak": 0.5125,
+    "rms": 0.13,
+    "seam": 0.0021
+  },
+  {
+    "id": "snd.music_ash_tense",
+    "file": "music/music_ash_tense.wav",
+    "seconds": 26.667,
+    "peak": 0.72,
+    "rms": 0.1178,
+    "seam": 0.0059
+  },
+  {
+    "id": "snd.music_pale_calm",
+    "file": "music/music_pale_calm.wav",
+    "seconds": 26.667,
+    "peak": 0.5507,
+    "rms": 0.13,
+    "seam": 0.0012
+  },
+  {
+    "id": "snd.music_pale_tense",
+    "file": "music/music_pale_tense.wav",
+    "seconds": 26.667,
+    "peak": 0.72,
+    "rms": 0.1208,
+    "seam": 0.0075
+  },
+  {
+    "id": "snd.music_harvest_calm",
+    "file": "music/music_harvest_calm.wav",
+    "seconds": 26.667,
+    "peak": 0.5654,
+    "rms": 0.13,
+    "seam": 0.0001
+  },
+  {
+    "id": "snd.music_harvest_tense",
+    "file": "music/music_harvest_tense.wav",
+    "seconds": 26.667,
+    "peak": 0.72,
+    "rms": 0.115,
+    "seam": 0.0033
+  }
+]

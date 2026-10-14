@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:pixelgenesis:schemas:mod-manifest:v1",
+  "title": "PixelGenesis data mod manifest v1",
+  "type": "object",
+  "required": ["id", "name", "version"],
+  "properties": {
+    "id": { "type": "string", "minLength": 1, "pattern": "^[A-Za-z0-9][A-Za-z0-9_.-]*$" },
+    "name": { "type": "string", "minLength": 1 },
+    "version": { "type": "string", "pattern": "^[0-9]+(?:\\.[0-9]+){0,2}$" },
+    "contentSchemaVersion": { "type": "integer", "const": 1, "description": "Omit only for legacy manifests; runtime treats a missing value as schema v1." },
+    "gameVersion": { "type": "string" },
+    "dependencies": { "type": "array", "items": { "type": "string", "minLength": 1 }, "uniqueItems": true },
+    "loadAfter": { "type": "array", "items": { "type": "string", "minLength": 1 }, "uniqueItems": true },
+    "description": { "type": "string" },
+    "hasCode": { "type": "boolean", "default": false, "description": "Code/DLL mods are unsupported; true only produces a warning." }
+  },
+  "additionalProperties": false
+}

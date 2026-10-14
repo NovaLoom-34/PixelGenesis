@@ -1,0 +1,336 @@
+{
+ "category": "chronicle_templates",
+ "count": 30,
+ "items": [
+  {
+   "id": "history.kingdom_founded",
+   "tr": [
+    "{A} krallığı, {B} önderliğinde tarih sahnesine çıktı.",
+    "{B}, {A} krallığının temellerini attı."
+   ],
+   "en": [
+    "The kingdom of {A} entered history under {B}.",
+    "{B} founded the kingdom of {A}."
+   ]
+  },
+  {
+   "id": "history.kingdom_fell",
+   "tr": [
+    "{A} krallığı yıkıldı; bir çağın düzeni sona erdi.",
+    "{A} krallığının bayrağı son kez indirildi."
+   ],
+   "en": [
+    "The kingdom of {A} fell, ending an era.",
+    "The banners of {A} were lowered for the last time."
+   ]
+  },
+  {
+   "id": "history.new_king",
+   "tr": [
+    "{B}, {A} tahtına çıktı.",
+    "{A} krallığında yeni hükümdar {B} oldu."
+   ],
+   "en": [
+    "{B} ascended the throne of {A}.",
+    "{A} welcomed a new ruler: {B}."
+   ]
+  },
+  {
+   "id": "history.war_declared",
+   "tr": [
+    "{A}, {B} krallığına savaş açtı. Neden: {CAUSE}; hedef: {GOAL}.",
+    "{A} ile {B} arasındaki savaş başladı. {CAUSE} gerekçe gösterildi."
+   ],
+   "en": [
+    "{A} declared war on {B}. Cause: {CAUSE}; goal: {GOAL}.",
+    "War began between {A} and {B}, driven by {CAUSE}. Goal: {GOAL}."
+   ]
+  },
+  {
+   "id": "history.peace",
+   "tr": [
+    "{A} savaşı sona erdi; silahlar sustu.",
+    "{A} savaşının ardından taraflar barışa döndü."
+   ],
+   "en": [
+    "The {A} war ended and the weapons fell silent.",
+    "After the {A} war, the sides returned to peace."
+   ]
+  },
+  {
+   "id": "history.city_founded",
+   "tr": [
+    "{A} şehrinin ilk temelleri atıldı.",
+    "Yeni bir yerleşim doğdu: {A}."
+   ],
+   "en": [
+    "The first foundations of {A} were laid.",
+    "A new settlement was born: {A}."
+   ]
+  },
+  {
+   "id": "history.city_ruined",
+   "tr": [
+    "{A} harabeye döndü; sokakları sessizliğe büründü.",
+    "Bir zamanların {A} şehri artık yıkıntı."
+   ],
+   "en": [
+    "{A} fell into ruin and its streets grew quiet.",
+    "The once thriving city of {A} became a ruin."
+   ]
+  },
+  {
+   "id": "history.city_captured",
+   "tr": [
+    "{C}, {B} krallığından {A} şehrini aldı.",
+    "{A} şehrinin hâkimiyeti {B} krallığından {C} krallığına geçti."
+   ],
+   "en": [
+    "{C} captured {A} from {B}.",
+    "Control of {A} passed from {B} to {C}."
+   ]
+  },
+  {
+   "id": "history.rebellion",
+   "tr": [
+    "{A}, {B} krallığına başkaldırdı.",
+    "{B} yönetimine karşı {A} şehrinde isyan yükseldi."
+   ],
+   "en": [
+    "{A} rebelled against the kingdom of {B}.",
+    "Rebellion rose in {A} against {B} rule."
+   ]
+  },
+  {
+   "id": "history.alliance_formed",
+   "tr": [
+    "{A} ittifakı kuruldu; yeni bir güç birliği doğdu.",
+    "Krallıklar {A} çatısı altında birleşti."
+   ],
+   "en": [
+    "The {A} alliance was formed, creating a new power bloc.",
+    "The kingdoms united under the {A} alliance."
+   ]
+  },
+  {
+   "id": "history.culture_founded",
+   "tr": [
+    "{A} kültürü yeni geleneklerin başlangıcı oldu.",
+    "Yeni bir kültür doğdu: {A}."
+   ],
+   "en": [
+    "The {A} culture began a new tradition.",
+    "A new culture emerged: {A}."
+   ]
+  },
+  {
+   "id": "history.language_founded",
+   "tr": [
+    "{A} dili halkları birbirine bağladı.",
+    "Yeni bir dil doğdu: {A}."
+   ],
+   "en": [
+    "The {A} language brought people together.",
+    "A new language emerged: {A}."
+   ]
+  },
+  {
+   "id": "history.religion_founded",
+   "tr": [
+    "{A} inancı yeni bir topluluğa yön verdi.",
+    "Yeni bir din doğdu: {A}."
+   ],
+   "en": [
+    "The faith of {A} gave a community new purpose.",
+    "A new religion emerged: {A}."
+   ]
+  },
+  {
+   "id": "history.clan_founded",
+   "tr": [
+    "{A} klanı kuruldu ve soyunu başlattı.",
+    "Yeni bir hanedan ortaya çıktı: {A}."
+   ],
+   "en": [
+    "The {A} clan was founded and began its lineage.",
+    "A new clan rose: {A}."
+   ]
+  },
+  {
+   "id": "history.meta_died",
+   "tr": [
+    "Bir topluluk tarih sahnesinden silindi.",
+    "Bir topluluğun hikâyesi sona erdi."
+   ],
+   "en": [
+    "A community vanished from history.",
+    "The story of a community came to an end."
+   ]
+  },
+  {
+   "id": "history.plot_succeeded",
+   "tr": [
+    "{A} entrikası başarıya ulaştı.",
+    "{B} tarafından yürütülen {A} planı hedefine vardı."
+   ],
+   "en": [
+    "The plot {A} succeeded.",
+    "The plan {A}, led by {B}, reached its goal."
+   ]
+  },
+  {
+   "id": "history.plot_failed",
+   "tr": [
+    "{A} entrikası başarısız oldu.",
+    "{B} tarafından kurulan {A} planı çöktü."
+   ],
+   "en": [
+    "The plot {A} failed.",
+    "The plan {A}, devised by {B}, collapsed."
+   ]
+  },
+  {
+   "id": "history.disaster",
+   "tr": [
+    "{A} afeti dünyayı sarstı.",
+    "Bir {A} afeti halkların yaşamını değiştirdi."
+   ],
+   "en": [
+    "The {A} disaster shook the world.",
+    "A {A} disaster changed the lives of its people."
+   ]
+  },
+  {
+   "id": "history.book_written",
+   "tr": [
+    "{B}, {A} adlı eseri kaleme aldı.",
+    "{B} yeni bir kitap yazdı: {A}."
+   ],
+   "en": [
+    "{B} wrote a work titled {A}.",
+    "{B} authored a new book: {A}."
+   ]
+  },
+  {
+   "id": "history.item_forged",
+   "tr": [
+    "{B}, {A} adlı eşsiz bir eşya dövdü.",
+    "Zanaatkâr {B}, {A} eserini tamamladı."
+   ],
+   "en": [
+    "{B} forged a remarkable item named {A}.",
+    "Artisan {B} completed the work known as {A}."
+   ]
+  },
+  {
+   "id": "history.species_endangered",
+   "tr": [
+    "{A} türü yok olma tehlikesiyle karşı karşıya.",
+    "{A} türünün sayısı kritik düzeye indi."
+   ],
+   "en": [
+    "The {A} species is now endangered.",
+    "The population of {A} has reached a critical low."
+   ]
+  },
+  {
+   "id": "history.species_extinct",
+   "tr": [
+    "{A} türünün son bireyleri de yok oldu.",
+    "{A} türü dünyadan silindi."
+   ],
+   "en": [
+    "The last members of {A} are gone.",
+    "The {A} species has vanished from the world."
+   ]
+  },
+  {
+   "id": "history.vassalage",
+   "tr": [
+    "{A}, {B} krallığının himayesine girdi.",
+    "{A} krallığı, {B} hükümdarlığını üst otorite olarak kabul etti."
+   ],
+   "en": [
+    "{A} became a vassal of {B}.",
+    "The kingdom of {A} recognized {B} as its overlord."
+   ]
+  },
+  {
+   "id": "history.tribute_paid",
+   "tr": [
+    "{A}, {B} krallığına {N} altın haraç ödedi.",
+    "{B} krallığı {A} tarafından ödenen {N} altını aldı."
+   ],
+   "en": [
+    "{A} paid {N} gold in tribute to {B}.",
+    "The kingdom of {B} received {N} gold from {A}."
+   ]
+  },
+  {
+   "id": "history.city_pillaged",
+   "tr": [
+    "{B}, {A} şehrini yağmaladı; {C} altın ele geçirildi.",
+    "{A} şehri yağmalandı ve {C} altın el değiştirdi."
+   ],
+   "en": [
+    "{B} pillaged {A}, taking {C} gold.",
+    "{A} was pillaged and {C} gold changed hands."
+   ]
+  },
+  {
+   "id": "history.invention_discovered",
+   "tr": [
+    "{A} krallığı yeni bir buluş keşfetti: {B}.",
+    "{B} buluşu, {A} halkının bilgisine katıldı."
+   ],
+   "en": [
+    "The kingdom of {A} discovered a new invention: {B}.",
+    "The invention {B} joined the knowledge of {A}."
+   ]
+  },
+  {
+   "id": "history.famine",
+   "tr": [
+    "{A} kentinde kıtlık başladı; öne çıkan iklim etkeni: {CAUSE}.",
+    "{A} kentinin halkı kıtlıkla karşı karşıya kaldı ({CAUSE})."
+   ],
+   "en": [
+    "Famine struck {A}; the likely climate factor was {CAUSE}.",
+    "The people of {A} faced famine ({CAUSE})."
+   ]
+  },
+  {
+   "id": "history.population_migrated",
+   "tr": [
+    "{N} kişi {A} kentinden {B} kentine {CAUSE} göç etti.",
+    "{A} kentinden {B} kentine {N} kişilik bir göç dalgası başladı ({CAUSE})."
+   ],
+   "en": [
+    "{N} people moved from {A} to {B} {CAUSE}.",
+    "A wave of {N} people moved from {A} to {B} {CAUSE}."
+   ]
+  },
+  {
+   "id": "history.person_died",
+   "tr": [
+    "{A} adlı kişinin yaşamı sona erdi.",
+    "Dünyanın tanınan kişilerinden {A} hayatını kaybetti."
+   ],
+   "en": [
+    "{A}'s life came to an end.",
+    "A notable figure, {A}, has died."
+   ]
+  },
+  {
+   "id": "history.king_died",
+   "tr": [
+    "{A} kralı {B} yaşamını yitirdi.",
+    "{A} krallığının hükümdarı {B} öldü; taht boş kaldı."
+   ],
+   "en": [
+    "{B}, ruler of {A}, has died.",
+    "The throne of {A} fell vacant after {B}'s death."
+   ]
+  }
+ ]
+}

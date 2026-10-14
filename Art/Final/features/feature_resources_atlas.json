@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "columns": 4,
+  "rows": 4,
+  "sprites": [
+    "cactus", "coral", "reed", "herb_patch",
+    "small_mushroom", "garlic_plant", "wheat_crop", "ore_copper",
+    "ore_iron", "ore_silver", "ore_gold", "ore_skyiron",
+    "ore_starore", "ore_obsidian", "salt_flat", "bones_pile"
+  ]
+}

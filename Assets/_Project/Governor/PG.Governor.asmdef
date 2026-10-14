@@ -1,0 +1,22 @@
+{
+    "name": "PG.Governor",
+    "rootNamespace": "PG.Governor",
+    "references": [
+        "PG.Core",
+        "PG.Content",
+        "PG.Sim",
+        "PG.Powers",
+        "Unity.Collections"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [
+        "Newtonsoft.Json.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,56 @@
+{
+  "editModeMinimumTests": 204,
+  "graphicsMinimumTests": 3,
+  "multikingdomYears": 200,
+  "multikingdomSeeds": [2024, 7, 99, 11, 23, 42],
+  "minimumInitialLivingKingdoms": 4,
+  "minimumCivilizedSpecies": 4,
+  "minimumMetricsSamples": 200,
+  "founderYears": 100,
+  "founderSeeds": [2024, 7, 99, 11, 23, 42],
+  "minimumFounderSeeds": 6,
+  "civilizationEconomy": {
+    "years": 100,
+    "seeds": [2024, 7, 99, 11, 23, 42],
+    "minimumFoundedCitiesAverage": 5,
+    "minimumMaxHallTierAverage": 2,
+    "minimumMaxHallTierInAnySeed": 3,
+    "minimumMaxHumanPopulationAverage": 200,
+    "maximumFamineEventsAverage": 6,
+    "minimumCraftedItemsPerSeed": 1,
+    "maximumUnemploymentRateAfterYear": 30,
+    "maximumAverageUnemploymentRate": 0.1,
+    "maximumAbsoluteGoldAccumulationRateAfterYear": 30,
+    "maximumAbsoluteGoldAccumulationRate": 0.1,
+    "maximumUnpaidMaintenanceRate": 0.1,
+    "maximumPopulationCollapseYears": 20
+  },
+  "performanceProfiles": {
+    "editorBatch": {
+      "size": "Large",
+      "targetUnits": 5000,
+      "budgetMsPerTick": 10.0,
+      "maxGcBytesPerTick": 0,
+      "warmupYears": 3,
+      "measureYears": 1
+    },
+    "desktopPlayer": {
+      "targetUnits": 5000,
+      "minimumFps": 60,
+      "budgetMsPerTick": 8.0,
+      "requiresPlayerBuild": true
+    },
+    "webPlayer": {
+      "targetUnits": 2500,
+      "minimumFps": 30,
+      "budgetMsPerTick": 10.0,
+      "requiresPlayerBuild": true
+    },
+    "androidPlayer": {
+      "targetUnits": 1200,
+      "minimumFps": 30,
+      "budgetMsPerTick": 12.0,
+      "requiresPlayerBuild": true
+    }
+  }
+}
